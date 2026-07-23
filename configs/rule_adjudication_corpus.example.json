@@ -1,0 +1,12 @@
+{
+  "positions": [
+    {
+      "name": "quiet_threefold_repetition",
+      "position": "position fen 4k4/9/9/9/9/9/4P4/9/R8/4K4 w - - 0 1 moves a1a2 e9e8 a2a1 e8e9 a1a2 e9e8 a2a1 e8e9"
+    },
+    {
+      "name": "red_unilateral_perpetual_check",
+      "position": "position fen 4k4/9/3R5/9/9/9/4P4/9/9/4K4 w - - 0 1 moves d7e7 e9d9 e7d7 d9e9 d7e7 e9d9 e7d7 d9e9"
+    }
+  ]
+}

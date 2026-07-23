@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "selection_rule_version": "natural_tactical_capture_or_check_v1",
+  "development": {
+    "reports": [
+      "artifacts/pikafish_balanced_shorttc_20260711.json"
+    ],
+    "count": 64,
+    "purpose": "development measurement only; this historical source is permanently excluded from the qualification holdout"
+  },
+  "holdout": {
+    "status": "unfrozen",
+    "freeze_after": "development coverage, variance, and cost determine a pre-registered threshold",
+    "source_rule": "use only a separately hashed natural-game report created after development tuning stops; never reuse development reports or positions"
+  }
+}

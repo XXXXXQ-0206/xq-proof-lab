@@ -1,0 +1,16 @@
+{
+  "positions": [
+    {
+      "name": "startpos",
+      "position": "position startpos"
+    },
+    {
+      "name": "central_cannon_opening",
+      "position": "position startpos moves h2e2 h9g7"
+    },
+    {
+      "name": "developed_knights_opening",
+      "position": "position startpos moves h2e2 h9g7 b0c2 b9c7"
+    }
+  ]
+}

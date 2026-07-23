@@ -1,0 +1,1946 @@
+{
+  "report_type": "proof_qualification_corpus",
+  "report_schema_version": 1,
+  "split": "development",
+  "config": {
+    "split": "development",
+    "count": 64,
+    "per_side": 32,
+    "selection_rule_version": "natural_tactical_capture_or_check_v1",
+    "source_reports": [
+      {
+        "path": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+        "sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+        "report_type": "uci_match_batch_aggregate"
+      }
+    ]
+  },
+  "corpus_digest": "c45d2c686ad9a504463469578f020a17ae32e6c9dd4543b16187b1a34fb554de",
+  "summary": {
+    "source_reports": 1,
+    "records_seen": 732,
+    "natural_tactical_records": 619,
+    "unique_natural_tactical_positions": 608,
+    "selected": 64,
+    "selected_by_side": {
+      "red": 32,
+      "black": 32
+    }
+  },
+  "positions": [
+    {
+      "selection_key": "0062e29e80ac0640a2bde1d92f3af8834a492eb75eda11b77e909cd66576601e",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 h0g2 c6c5 i0h0 c5c4 b0a2 i9h9 h0h4 b9a7 h4c4 a9b9 a0b0 b9b6 b2c2 b6b0 a2b0 c7c2 b0c2 g9e7 c4h4 h7h5 e3e4 g6g5 g3g4 g5g4 h4g4 h5g5 e4e5 f9e8",
+      "fen": "2bak2r1/4a4/n3b1n2/p3p3p/4P1c2/6R2/P7P/2N1C1N2/9/2BAKAB2 w - - 3 17",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|21fed39c1d4728ff:h0g2:w:0:0|eaae486555cae4d7:c6c5:b:0:0|4d9eebceef5c672a:i0h0:w:0:0|b9de8c906969d500:c5c4:b:1:0|19ff28689ca44a0f:b0a2:w:0:0|989bf91452110924:i9h9:b:0:0|145172bf80891469:h0h4:w:0:0|8d3eedf77f74828b:b9a7:b:0:0|673d9200f014cef5:h4c4:w:1:0|1cb3110f7c3a5c19:a9b9:b:0:0|fa1b8ee49d1ed814:a0b0:w:0:0|4fa41c94f2b69bcc:b9b6:b:0:0|4b3948a274c1c0d8:b2c2:w:0:0|4af2c6f78c422978:b6b0:b:1:0|3401ef8b1d9da3c1:a2b0:w:1:0|ddcfd0c63fca9052:c7c2:b:1:0|39022f97d24ee107:b0c2:w:1:0|f889fa15b031b83b:g9e7:b:0:0|696dc0d9bd650c53:c4h4:w:0:0|c3310f3d3c817f2c:h7h5:b:0:0|685262e8d1a5e467:e3e4:w:0:0|5006cd3651ef626c:g6g5:b:0:0|96f047cc9a8ed841:g3g4:w:0:0|ef791bee8da131ac:g5g4:b:1:0|f76aefa528b04bb0:h4g4:w:1:0|17c6e7943013a192:h5g5:b:0:0|6963d46b4ce76f08:e4e5:w:0:0|6619b52260298251:f9e8:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "e2e6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e5e6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g4g5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 32,
+      "source_record_index": 31
+    },
+    {
+      "selection_key": "0076fa01ee7950819912488f8cbab149325b04321dd4696385a97a59e571f823",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8 d5f4 b7b9 f4e6 d8b7 b5d5 b9d9 f0e1 b7d8 d5e5 d9d2 e1d2 d8e6 e5e6 g3f5 d2e1 f5d4 e6i6 a8b8 g2e3 b8b3 e3g4 b3g3 g0i2 d4f3 a2f2 f3g5 i6i5 a6a5 f2e2 e9d9 e2e3 i7g7 e3e2 g7h7 e2f2 h7h0 f2f6 g9i7 i5h5 h0i0 h5h4 g5e4 f6f2 d9e9 g4h6 e4c3 e0f0 i7g9 h4g4 g3g4 i2g4 i0h0 f2d2 h0g0 h6f5 c6c5 f5d6 c5c4 d6c8 e9d9 c8d6 d9e9 d6c8 e9d9 c8b6",
+      "fen": "3k1ab2/4a4/4b4/1N7/p8/2p3B2/P1n5P/3C5/4A4/2BA1Kc2 b - - 7 48",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0|816ca2f34dee7e3f:d5f4:w:1:0|84f1d106a2ff2286:b7b9:b:0:0|730a498ba2fc934f:f4e6:w:1:0|97e697934c3c5bd7:d8b7:b:0:0|4be99f0dddd0a98a:b5d5:w:0:0|a13b1d5a51554e6e:b9d9:b:0:0|09cf58e88dd517f6:f0e1:w:0:0|ed2386f06315df6e:b7d8:b:0:0|a180886e1a6afbef:d5e5:w:0:0|63f638e45718894c:d9d2:b:1:0|0a7ace5db5d479e4:e1d2:w:1:0|2f62a958cabba40d:d8e6:b:1:0|db1fc2b105c43dcc:e5e6:w:1:0|03c648c6105f9b2c:g3f5:b:0:0|42d047f74d00e378:d2e1:w:0:0|639dd124e8592fc2:f5d4:b:0:0|0cb7a4955e8861d7:e6i6:w:1:0|3312ba820ecfc656:a8b8:b:0:0|b0deb514e993bf70:g2e3:w:0:0|8184ef623403e906:b8b3:b:0:0|d7d3d633b4a83a5d:e3g4:w:0:0|dfb9279322efd0b7:b3g3:b:0:0|00b576dd7ed145b4:g0i2:w:0:0|a57d8345876af990:d4f3:b:0:0|86b9275a50f71662:a2f2:w:0:0|5ecc100626d27ea4:f3g5:b:0:0|02cf2cddab2fc574:i6i5:w:0:0|8a799fcda246382a:a6a5:b:0:0|2c11d401e0d07ade:f2e2:w:0:0|8f834c1f9a86d6b8:e9d9:b:0:0|a5ecb31228959c80:e2e3:w:0:0|d48d6fbb53868657:i7g7:b:0:0|fee290b6e195cc6f:e3e2:w:0:0|162c0c079f80e073:g7h7:b:0:0|b04447cbdd16a287:e2f2:w:0:0|6a4c1a0b52c510d7:h7h0:b:0:0|e8850e96dd38c75b:f2f6:w:0:0|7831b2943dc1e259:g9i7:b:0:0|78a815611fa1cb9e:i5h5:w:0:0|831771faeae90b50:h0i0:b:0:0|c59110e2f7082af6:h5h4:w:0:0|44ee3ed326e6a276:g5e4:b:0:0|c6272a4ea91b75fa:f6f2:w:0:0|65b5b250d34dd99c:d9e9:b:0:0|97c8a8e52877410c:g4h6:w:0:0|eea47e2d51144b1a:e4c3:b:0:0|39ea1f7d5bf40490:e0f0:w:0:0|a95ea37fbb0d2192:i7g9:b:0:0|0e72ec9fd74982e8:h4g4:w:0:0|ba6c8cca02ab2627:g3g4:b:1:0|f62d50148ccd8e53:i2g4:w:1:0|0d92348f79854e9d:i0h0:b:0:0|5a5bebae497bcb03:f2d2:w:0:0|4fd672ad87467e91:h0g0:b:0:0|b3ebac2ac88af5d0:h6f5:w:0:0|78bb37d3800739f8:c6c5:b:0:0|13d59c000cd83dd8:f5d6:w:0:0|e795fb5e8aed8ff2:c5c4:b:1:0|0df8894307c906b2:d6c8:w:0:1|ae6a115d7d9faad4:e9d9:b:0:0|44076340f0bb2394:c8d6:w:0:1|e795fb5e8aed8ff2:d9e9:b:0:0|0df8894307c906b2:d6c8:w:0:1|ae6a115d7d9faad4:e9d9:b:0:0|d1de9b975e6ee93f:c8b6:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "g0d0",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 94,
+      "source_record_index": 93
+    },
+    {
+      "selection_key": "0150d40a6a0a8dac0615817313065406c9744351507d550a3af0871fabfc191b",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8 d5f4 b7b9 f4e6 d8b7 b5d5 b9d9",
+      "fen": "3ckab2/r3a4/1n2b3c/p1p1N3p/3R5/2P6/P5n1P/C2C2N2/9/2BAKAB2 w - - 3 19",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0|816ca2f34dee7e3f:d5f4:w:1:0|84f1d106a2ff2286:b7b9:b:0:0|730a498ba2fc934f:f4e6:w:1:0|97e697934c3c5bd7:d8b7:b:0:0|4be99f0dddd0a98a:b5d5:w:0:0|a13b1d5a51554e6e:b9d9:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "a2a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d2d9",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d5d9",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 35,
+      "source_record_index": 34
+    },
+    {
+      "selection_key": "015f0e4f0483b0f70624a89b980148a1510a1ad58f100f5276a4c6da0a54c3e3",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4 b3b1 h5e5 f8e8 e5e6 c6d4 e6d6 e8e4 e3e4 c7e7 f0e1 f2b2 b0d1 b2b4 a2b2 b1d1 b2b4 d1d0 e0d0 d4c2 d0e0 c2b4 d6g6 b4c2 c4e2 e7h7 g6a6 i6i5 e4e5 f9e8 a6c6 c2d4 c6h6 h7i7 h6h9 c9e7 h9h3 d4c6 e5f5 c6d4 f5f6 i7i8 e1f2 i8i6 h3d3 d4b5 g4g5 g9i7 g5h5 e8d7 h5i5 i6h6 d3h3 e7g9 a3a4 d9e8 i5i6 h6h7 h3h7 i7g5 h7g7 g9i7 i6i7 b5a3 i7i8 e9f9 g7g9 f9f8",
+      "fen": "6R2/4ak2P/3a5/5P3/6b2/P8/n7P/4BA3/9/4K1B2 w - - 5 48",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0|37a547f2c2ebdd2b:b3b1:b:1:0|bcd03be31f3d3db0:h5e5:w:0:1|d83361c378dea0ff:f8e8:b:0:0|be3c9d38ba4e24c5:e5e6:w:0:0|0303c4ea8b3453f9:c6d4:b:0:0|6a12fe72baa15982:e6d6:w:0:1|e1f4f7adb97fc94b:e8e4:b:1:0|7f604ee485252ab1:e3e4:w:1:0|635e00b38170dd1b:c7e7:b:0:1|cbaa45015df08483:f0e1:w:0:0|45858a166d71e234:f2b2:b:0:0|99b1630fc8b090ea:b0d1:w:0:0|8daaa5f0fcd84aff:b2b4:b:0:0|bfdfbf902c9bce75:a2b2:w:0:0|9d33a74d1af30552:b1d1:b:1:0|a598236b8c9a1f72:b2b4:w:1:0|70fc65a17cd15e1d:d1d0:b:1:1|4a7b8592f2e0180a:e0d0:w:1:0|e9a661d57e5bc57f:d4c2:b:0:1|2ffaa3cb33064e66:d0e0:w:0:0|eb34202a4956c0b9:c2b4:b:1:0|cc8df5e4ecbe3b2c:d6g6:w:1:0|1e04d4e60d3b6638:b4c2:b:0:0|106ea9ba8e4e145d:c4e2:w:0:0|cf952347a384edbd:e7h7:b:0:0|28a9c5f8e4c3d4e2:g6a6:w:1:0|e36cdda41dbca287:i6i5:b:0:0|9dc9ee5b61486c1d:e4e5:w:0:0|92b38f124d868144:f9e8:b:0:0|05619ec1d119c2a6:a6c6:w:0:0|a6bc7a865da21fd3:c2d4:b:0:0|375a9f4956992adb:c6h6:w:0:0|1572b23407fb3e15:h7i7:b:0:0|eb4cf6a0ee740f72:h6h9:w:0:0|b8544d3f4a12d7d7:c9e7:b:0:0|99e3e7d0841b07af:h9h3:w:0:0|24dcbe02b5617093:d4c6:b:0:0|4afa9e85cccb7ca2:e5f5:w:0:0|f7c5c757fdb10b9e:c6d4:b:0:0|c2fe2a280b6d2837:f5f6:w:0:0|c338a5b15dfbe168:i7i8:b:0:0|eb137cff9e86b77a:e1f2:w:0:0|76a0608bb4dd0b7e:i8i6:b:0:0|f2611b50def271f9:h3d3:w:0:0|4c9b8802c542dfed:d4b5:b:0:0|a7856ae33f71d7ab:g4g5:w:0:0|3731d6e1df88f2a9:g9i7:b:0:0|63fecc144836692b:g5h5:w:0:0|df518b2ce09f0c4f:e8d7:b:0:0|25f7d65eacd58fd3:h5i5:w:1:0|8a85f99066990185:i6h6:b:0:0|0e44824b0cb67b02:d3h3:w:0:0|cfcf57c96ec9223e:e7g9:b:0:0|95c28572c079da1b:a3a4:w:0:0|3b15bf78f523b0d8:d9e8:b:0:0|936497789701a54f:i5i6:w:0:0|39cc6b4324866889:h6h7:b:0:0|8dc6a0782d9bd8df:h3h7:w:1:0|2eaaf7f2b60a2f68:i7g5:b:0:0|e84b6eaf2e4136f8:h7g7:w:0:0|78ffd2adceb813fa:g9i7:b:0:0|287dece114f62844:i6i7:w:1:0|898ffc7f31f783bf:b5a3:b:0:0|4e97affb0171ad51:i7i8:w:0:0|fe3ce9a0af3f2f3b:e9f9:b:0:0|4f4940d3f6cb9736:g7g9:w:0:1|ceed6d270ba22ef1:f9f8:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "f6f7",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "g9f9",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "g9g5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g9g8",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 6,
+      "source_game_index": 5,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 94,
+      "source_record_index": 93
+    },
+    {
+      "selection_key": "01e9a83730b6968c7a2b8ed7a31bba5574d2dd9784252b33cba979ef16b70fcc",
+      "position": "position startpos moves h2e2 h9g7 h0g2 g6g5 b0c2 i9h9 i0h0 h7h3",
+      "fen": "rnbakabr1/9/1c4n2/p1p1p3p/6p2/9/P1P1P1PcP/1CN1C1N2/9/R1BAKABR1 w - - 8 5",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|a797fbc095c73aca:g6g5:b:0:0|8c91e43c2f1dec59:b0c2:w:0:0|0df53540e1a8af72:i9h9:b:0:0|aac596eb5b3e2c8f:i0h0:w:0:0|ab96f3ac4dded826:h7h3:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b2b9",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e2e6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h0h3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 4,
+      "source_game_index": 3,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 7,
+      "source_record_index": 6
+    },
+    {
+      "selection_key": "0309a5ff15c35164957b7b681779e0ec67fa0877b49521bc2d617a7fa10b21be",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4 b3b1 h5e5 f8e8 e5e6 c6d4 e6d6 e8e4 e3e4 c7e7 f0e1 f2b2 b0d1 b2b4",
+      "fen": "2bakab2/9/4c4/p2R2p1p/9/1cBnP1P2/P7P/R8/1r1NA4/3AK1B2 w - - 5 21",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0|37a547f2c2ebdd2b:b3b1:b:1:0|bcd03be31f3d3db0:h5e5:w:0:1|d83361c378dea0ff:f8e8:b:0:0|be3c9d38ba4e24c5:e5e6:w:0:0|0303c4ea8b3453f9:c6d4:b:0:0|6a12fe72baa15982:e6d6:w:0:1|e1f4f7adb97fc94b:e8e4:b:1:0|7f604ee485252ab1:e3e4:w:1:0|635e00b38170dd1b:c7e7:b:0:1|cbaa45015df08483:f0e1:w:0:0|45858a166d71e234:f2b2:b:0:0|99b1630fc8b090ea:b0d1:w:0:0|8daaa5f0fcd84aff:b2b4:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "d6a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6d4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6d9",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "d6g6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 6,
+      "source_game_index": 5,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 40,
+      "source_record_index": 39
+    },
+    {
+      "selection_key": "031224a2d9133bc254a50e3a8caaeca56a7c8c60cea46bfec57922dea4542160",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1",
+      "fen": "4kab2/1R1na4/4b4/p2Pp3p/5r3/P5C2/4P3P/4B4/2n1AN2N/3A1KB2 b - - 4 25",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "c1e2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f5f1",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 49,
+      "source_record_index": 48
+    },
+    {
+      "selection_key": "03945041b23618d114a7547a6bca48050d8af8e08b4fba9f86bd243b11d5c994",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2 g1h1 h9f8 c5e4",
+      "fen": "4ka3/4aN3/4b4/p7p/9/P3n3P/4n4/4B3R/4AC1rN/3A1KB2 w - - 10 44",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0|48619e76889d1d56:g1h1:b:0:0|2dcbebed14005356:h9f8:w:0:0|7ffad2895e311372:c5e4:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "f1f9",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 86,
+      "source_record_index": 85
+    },
+    {
+      "selection_key": "03f666f166a0beb94b6c27525666c0c4af884e6a04e9ad8492288b4da3678644",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5",
+      "fen": "r1bakabn1/4c4/1c7/p3p1p1p/2Pn5/4P4/P3N1P1P/1C2C1N2/9/R1BAKAB2 b - - 0 9",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "d5e3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e8e4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 17,
+      "source_record_index": 16
+    },
+    {
+      "selection_key": "0418e7ca20f7208aead41faa64ea7b5d69578144951f189dd65295643739b2ea",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4",
+      "fen": "r3kab2/3na4/1c2b1n2/p3p3p/2P4r1/P2N2C2/4P2cP/3C2N2/9/R1BAKABR1 b - - 0 12",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "e7c5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h5c5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 23,
+      "source_record_index": 22
+    },
+    {
+      "selection_key": "045eee462b0e353701afbc7d6f1388fce0cc22e0942106772d8c4b1f869ffad7",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4",
+      "fen": "rn2kab2/4a4/1c2b3c/p1p1p3p/1R4p2/2P1r4/P5n1P/C1N1C1N2/5R3/2BAKAB2 w - - 0 11",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "a2a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b5b7",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b5g5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f1f9",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 19,
+      "source_record_index": 18
+    },
+    {
+      "selection_key": "04d355108f3dc5e17e1ce755a70ff98c2d4ca71a6cb850072068dd1e6a595f0f",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4 b3b1 h5e5 f8e8 e5e6 c6d4 e6d6 e8e4 e3e4 c7e7 f0e1 f2b2 b0d1 b2b4 a2b2 b1d1 b2b4 d1d0 e0d0 d4c2 d0e0 c2b4 d6g6 b4c2 c4e2 e7h7 g6a6 i6i5 e4e5 f9e8 a6c6 c2d4 c6h6 h7i7 h6h9 c9e7 h9h3 d4c6 e5f5 c6d4 f5f6 i7i8 e1f2 i8i6 h3d3 d4b5",
+      "fen": "3ak1b2/4a4/4b4/5P2c/1n6p/6P2/P2R4P/4BA3/9/4K1B2 w - - 19 37",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0|37a547f2c2ebdd2b:b3b1:b:1:0|bcd03be31f3d3db0:h5e5:w:0:1|d83361c378dea0ff:f8e8:b:0:0|be3c9d38ba4e24c5:e5e6:w:0:0|0303c4ea8b3453f9:c6d4:b:0:0|6a12fe72baa15982:e6d6:w:0:1|e1f4f7adb97fc94b:e8e4:b:1:0|7f604ee485252ab1:e3e4:w:1:0|635e00b38170dd1b:c7e7:b:0:1|cbaa45015df08483:f0e1:w:0:0|45858a166d71e234:f2b2:b:0:0|99b1630fc8b090ea:b0d1:w:0:0|8daaa5f0fcd84aff:b2b4:b:0:0|bfdfbf902c9bce75:a2b2:w:0:0|9d33a74d1af30552:b1d1:b:1:0|a598236b8c9a1f72:b2b4:w:1:0|70fc65a17cd15e1d:d1d0:b:1:1|4a7b8592f2e0180a:e0d0:w:1:0|e9a661d57e5bc57f:d4c2:b:0:1|2ffaa3cb33064e66:d0e0:w:0:0|eb34202a4956c0b9:c2b4:b:1:0|cc8df5e4ecbe3b2c:d6g6:w:1:0|1e04d4e60d3b6638:b4c2:b:0:0|106ea9ba8e4e145d:c4e2:w:0:0|cf952347a384edbd:e7h7:b:0:0|28a9c5f8e4c3d4e2:g6a6:w:1:0|e36cdda41dbca287:i6i5:b:0:0|9dc9ee5b61486c1d:e4e5:w:0:0|92b38f124d868144:f9e8:b:0:0|05619ec1d119c2a6:a6c6:w:0:0|a6bc7a865da21fd3:c2d4:b:0:0|375a9f4956992adb:c6h6:w:0:0|1572b23407fb3e15:h7i7:b:0:0|eb4cf6a0ee740f72:h6h9:w:0:0|b8544d3f4a12d7d7:c9e7:b:0:0|99e3e7d0841b07af:h9h3:w:0:0|24dcbe02b5617093:d4c6:b:0:0|4afa9e85cccb7ca2:e5f5:w:0:0|f7c5c757fdb10b9e:c6d4:b:0:0|c2fe2a280b6d2837:f5f6:w:0:0|c338a5b15dfbe168:i7i8:b:0:0|eb137cff9e86b77a:e1f2:w:0:0|76a0608bb4dd0b7e:i8i6:b:0:0|f2611b50def271f9:h3d3:w:0:0|4c9b8802c542dfed:d4b5:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "d3d9",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 6,
+      "source_game_index": 5,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 72,
+      "source_record_index": 71
+    },
+    {
+      "selection_key": "0525ec305984a93b8827acb35bf8fb9065630b0ddeca0f7ab6a161c2287fdb32",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4 d5d2 g0e2 d2b2 g2b2 b7b2 a0a2 b2b3 a2c2 a9a7 b4c6 a7a6 c6d4 a6a7 d4b3 i8g8 g4g5 g8a8 b3d4 a8d8 i0i1 c7d5 c2c5 d5c7 c5c1 c7d5 d4f5 d8g8 i1d1 d5f4 c1c9 f9e8 d1f1 f4h3 f5d6 a7d7 c9c6 h3g5 f1f6 g5h3 e0e1 h3g5 e2g4 e8f7 f6f5 g9i7 d6c4 f7e8 f5f6 i7g9 e1e0 d7b7 c0e2 e8f9 c6b6 b7a7 b6b5 a5a4 b5f5 g8d8 a3a4 a7a4 f6f7 d9e8 f7g7 g9e7 g7e7 g5i4 e7b7 i4g3 b7b9 e8d9",
+      "fen": "1R1aka3/3c5/9/4p1N1p/5R3/r1N3B2/4P1n1P/4B4/9/3AKA3 w - - 5 47",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0|83524fb68ab67508:d5d2:b:0:0|c698e0387537674d:g0e2:w:0:0|1c2318a9d5e06c08:d2b2:b:1:0|b98bf325c41abfb2:g2b2:w:1:0|1758068c41e42c5b:b7b2:b:1:0|185b1cca927c54a2:a0a2:w:0:0|14aff02f1fdfeff3:b2b3:b:0:0|af2cbbc2aebde8e1:a2c2:w:0:0|c1192772a44b6c7b:a9a7:b:0:0|adb2f141d1cb980d:b4c6:w:0:0|70b0ba9d4ac56687:a7a6:b:0:0|8b6af80e04b525d9:c6d4:w:0:0|5668b3d29fbbdb53:a6a7:b:0:0|cf5c8e1d76592a79:d4b3:w:1:0|ee45a2c46e28dfbb:i8g8:b:0:0|055b4025941bd7fd:g4g5:w:0:0|aed8815bd753c330:g8a8:b:0:0|67b8ebb13b462a37:b3d4:w:0:0|d6a21c48161fae73:a8d8:b:0:0|57dde8d684a3fa0f:i0i1:w:0:0|351b2c2848f99c6b:c7d5:b:0:0|65334b4be17c3349:c2c5:w:0:0|07f58fb52d26552d:d5c7:b:0:0|5c8bfa3e9da5e133:c5c1:w:0:0|3e4d3ec051ff8757:c7d5:b:0:0|01121ae79cbd8621:d4f5:w:0:0|a00c4105a6c834ad:d8g8:b:0:0|3dc785fd36940ba3:i1d1:w:0:0|a2ee5223e696aa54:d5f4:b:0:0|4b1a98e054788fcb:c1c9:w:1:0|4460f9a978b66292:f9e8:b:0:0|3e27ce2f5ef809f4:d1f1:w:0:0|689ac78b0cdf2a7e:f4h3:b:0:0|03f46c5880002e5e:f5d6:w:0:0|b6e7348504aeb0fe:a7d7:b:0:0|5391ae4c10c897b3:c9c6:w:0:0|1995d6e894a602d3:h3g5:b:1:0|f7f4b6c39affa222:f1f6:w:0:0|6914e5d8f4d4097d:g5h3:b:0:0|703376a1750d68c7:e0e1:w:0:0|eed325ba1b26c398:h3g5:b:0:0|d7769b07337f20a4:e2g4:w:0:0|825cc2747914a7cc:e8f7:b:0:0|3107b3dbb7999f8a:f6f5:w:0:0|a1b30fd95760ba88:g9i7:b:0:0|3472a9cedb2624df:d6c4:w:0:0|6158f0bd914da3b7:f7e8:b:0:0|d20381125fc09bf1:f5f6:w:0:0|42b73d10bf39bef3:i7g9:b:0:0|5b90ae693ee0df49:e1e0:w:0:0|77838b1fae2b4792:d7b7:b:0:0|8cb494fc11f791de:c0e2:w:0:0|83cef5b53d397c87:e8f9:b:0:0|8e76019708c05c86:c6b6:w:0:0|acf1115948c178f8:b7a7:b:0:0|f847ff2e211cc18a:b6b5:w:0:0|be30d34333c894d5:a5a4:b:0:0|f35cf62e97188527:b5f5:w:0:0|5242adccad6d37ab:g8d8:b:0:0|967d99976fa4a7b0:a3a4:w:1:0|b87d7e1a6020982c:a7a4:b:1:0|3b4c8cd6429a22e6:f6f7:w:0:0|959bb6dc77c04825:d9e8:b:0:0|4a44bebcc00afc64:f7g7:w:1:0|8bcf6b3ea275a558:g9e7:b:0:0|00cbfbf061d7fa70:g7e7:w:1:0|0ea51679d7015a5c:g5i4:b:0:0|31a38660966926fa:e7b7:w:0:0|bbe4b5891fe3386e:i4g3:b:0:0|0e2e0be655e110b3:b7b9:w:0:1|a0f931ec60bb7a70:e8d9:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b9d9",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "f5f9",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 91,
+      "source_record_index": 90
+    },
+    {
+      "selection_key": "0567da936dbea34f55b96feb2c25130c8971fc77ebb91fe152c75b055a9e94d6",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2 g1h1 h9f8 c5e4 f1f4 h1h4 f8g6 e7g5 i2f2 e3g2 i1g2 e4f2 g2h4 f2h1 f0e0 e9d9 h4i2 i6i5 i4i5 e8f7 f4f9 d9e9 f9g9",
+      "fen": "4k1C2/9/5a3/p5N2/6b1P/P8/9/4B3N/4A2n1/3AK1B2 b - - 2 53",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0|48619e76889d1d56:g1h1:b:0:0|2dcbebed14005356:h9f8:w:0:0|7ffad2895e311372:c5e4:b:0:0|5700efaa379d67e9:f1f4:w:0:0|61c11ac62d41c58e:h1h4:b:0:0|703d764d526ec3d6:f8g6:w:0:0|826e48474b79485f:e7g5:b:0:0|4c2abc59c897ef6d:i2f2:w:0:0|bee26fb1503986ab:e3g2:b:0:1|8683efc7b4fcb376:i1g2:w:1:0|c2aa5e32cbfecb98:e4f2:b:1:0|aadc9562765f922a:g2h4:w:1:0|42229fa3448346ec:f2h1:b:0:1|956cfef34e630966:f0e0:w:0:0|36fe66ed3435a500:e9d9:b:0:0|6c003ba5f987aa6c:h4i2:w:0:0|a7c523f900f8dc09:i6i5:b:0:0|0fc549ff2bfc4001:i4i5:w:1:0|5aef108c6197c769:e8f7:b:0:0|0f120e9bc06b1932:f4f9:w:1:0|ac809685ba3db554:d9e9:b:0:0|10b19b2acc4a4154:f9g9:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "h1f2",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 105,
+      "source_record_index": 104
+    },
+    {
+      "selection_key": "05af54564add5688f6a0a489ffa4caef42b34f8c538557556c19e9e84dca7926",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 h0g2 c6c5 i0h0 c5c4 b0a2 i9h9 h0h4 b9a7 h4c4 a9b9 a0b0 b9b6 b2c2 b6b0 a2b0 c7c2 b0c2 g9e7 c4h4 h7h5 e3e4 g6g5 g3g4 g5g4 h4g4 h5g5 e4e5 f9e8 e5e6 g7e6 g2e3 h9h6 g4e4 e6c5 e4g4 c5b3 g4g1 a7c6 g1d1 h6h3 d1d3 g5g3 e3f5 c6a5 f5g3 b3c1 d3d1 a5b3 d0e1 h3g3 e0d0 e9f9 e1d2 g3g0 d1f1 f9e9 d0d1 g0g3 f1h1 e9f9 i3i4 c1a0 f0e1 a0b2 h1f1 f9e9 f1h1 e9f9 h1h9 e7g9 h9h4 g3e3 h4f4 f9e9 f4f3 e3e2 f3b3",
+      "fen": "2bak1b2/4a4/9/p7p/9/8P/PR7/1nNAr4/3KA4/2B6 b - - 0 41",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|21fed39c1d4728ff:h0g2:w:0:0|eaae486555cae4d7:c6c5:b:0:0|4d9eebceef5c672a:i0h0:w:0:0|b9de8c906969d500:c5c4:b:1:0|19ff28689ca44a0f:b0a2:w:0:0|989bf91452110924:i9h9:b:0:0|145172bf80891469:h0h4:w:0:0|8d3eedf77f74828b:b9a7:b:0:0|673d9200f014cef5:h4c4:w:1:0|1cb3110f7c3a5c19:a9b9:b:0:0|fa1b8ee49d1ed814:a0b0:w:0:0|4fa41c94f2b69bcc:b9b6:b:0:0|4b3948a274c1c0d8:b2c2:w:0:0|4af2c6f78c422978:b6b0:b:1:0|3401ef8b1d9da3c1:a2b0:w:1:0|ddcfd0c63fca9052:c7c2:b:1:0|39022f97d24ee107:b0c2:w:1:0|f889fa15b031b83b:g9e7:b:0:0|696dc0d9bd650c53:c4h4:w:0:0|c3310f3d3c817f2c:h7h5:b:0:0|685262e8d1a5e467:e3e4:w:0:0|5006cd3651ef626c:g6g5:b:0:0|96f047cc9a8ed841:g3g4:w:0:0|ef791bee8da131ac:g5g4:b:1:0|f76aefa528b04bb0:h4g4:w:1:0|17c6e7943013a192:h5g5:b:0:0|6963d46b4ce76f08:e4e5:w:0:0|6619b52260298251:f9e8:b:0:0|483bfd74eacdc6e9:e5e6:w:1:0|19e056f407f4df84:g7e6:b:1:0|9a2c5962e0a8a6a2:g2e3:w:0:0|30f594367e4e8415:h9h6:b:0:0|5e1458b2ba2448b2:g4e4:w:0:0|44b9bd13a2a7a316:e6c5:b:0:0|2a58719766cd6fb1:e4g4:w:0:0|0f6a7afe759d0939:c5b3:b:0:0|b47bc1d34d61011f:g4g1:w:0:0|c05f169da2a1c539:a7c6:b:0:0|50ab9753c893b9a2:g1d1:w:0:0|3827e2badc5da56d:h6h3:b:0:0|7a11e68ad0c552a8:d1d3:w:0:0|aaea16a7d636fd32:g5g3:b:0:0|f2fdebc4e26b3db8:e3f5:w:0:0|34905e53f8a00daf:c6a5:b:0:0|030a2656c2997d4f:f5g3:w:1:0|9e60dee9db26afa7:b3c1:b:0:1|dc56dad9d7be5862:d3d1:w:0:0|2cc5e864fb1e6587:a5b3:b:0:0|5907969df2fe6da1:d0e1:w:0:0|11d027e4cf17b506:h3g3:b:1:0|d78ce5fa824a3e1f:e0d0:w:0:0|6727a3a12c04bc75:e9f9:b:0:0|2631ac90715bc421:e1d2:w:0:0|822613169b6457f1:g3g0:b:1:0|f8612490bd2a3c97:d1f1:w:0:1|48ca62cb1364befd:f9e9:b:0:0|8285747d5df5249b:d0d1:w:0:0|002ec562559571b8:g0g3:b:0:0|c0b1074de00999cc:f1h1:w:0:0|701a41164e471ba6:e9f9:b:0:0|d143ff2c1284cd3b:i3i4:w:0:0|92d0f7150e8834d4:c1a0:b:0:0|3a24b2a7d2086d4c:f0e1:w:0:0|01948bea6bd677a2:a0b2:b:0:0|c10b49c5de4a9fd6:h1f1:w:0:1|71a00f9e70041dbc:f9e9:b:0:0|b13fcdb1c598f5c8:f1h1:w:0:0|01948bea6bd677a2:e9f9:b:0:0|5c0cab4750baa98a:h1h9:w:0:1|9d877ec532c5f0b6:e7g9:b:0:0|4d89b3a7f095584e:h9h4:w:0:0|63f6b456696156d8:g3e3:b:0:0|8e0874d1663b5c9b:h4f4:w:0:1|3ea3328ac875def1:f9e9:b:0:0|1a6cd71b011e3460:f4f3:w:0:0|524f445c21234509:e3e2:b:1:0|35b382bcbc8c60ee:f3b3:w:1:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b2c0",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e2d2",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "e2e1",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 81,
+      "source_record_index": 80
+    },
+    {
+      "selection_key": "05d2875e249db589d518905b92960c53d697412eece4fc75ca7ab2ac2cdbb370",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4 d5d2 g0e2 d2b2 g2b2 b7b2 a0a2 b2b3 a2c2 a9a7 b4c6 a7a6 c6d4 a6a7 d4b3 i8g8 g4g5 g8a8 b3d4 a8d8 i0i1 c7d5 c2c5 d5c7 c5c1 c7d5 d4f5 d8g8 i1d1 d5f4",
+      "fen": "2bakab2/6c2/r5n2/4p1N1p/p4NP2/5n3/P3P3P/4B4/2RR5/2BAKA3 w - - 15 26",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0|83524fb68ab67508:d5d2:b:0:0|c698e0387537674d:g0e2:w:0:0|1c2318a9d5e06c08:d2b2:b:1:0|b98bf325c41abfb2:g2b2:w:1:0|1758068c41e42c5b:b7b2:b:1:0|185b1cca927c54a2:a0a2:w:0:0|14aff02f1fdfeff3:b2b3:b:0:0|af2cbbc2aebde8e1:a2c2:w:0:0|c1192772a44b6c7b:a9a7:b:0:0|adb2f141d1cb980d:b4c6:w:0:0|70b0ba9d4ac56687:a7a6:b:0:0|8b6af80e04b525d9:c6d4:w:0:0|5668b3d29fbbdb53:a6a7:b:0:0|cf5c8e1d76592a79:d4b3:w:1:0|ee45a2c46e28dfbb:i8g8:b:0:0|055b4025941bd7fd:g4g5:w:0:0|aed8815bd753c330:g8a8:b:0:0|67b8ebb13b462a37:b3d4:w:0:0|d6a21c48161fae73:a8d8:b:0:0|57dde8d684a3fa0f:i0i1:w:0:0|351b2c2848f99c6b:c7d5:b:0:0|65334b4be17c3349:c2c5:w:0:0|07f58fb52d26552d:d5c7:b:0:0|5c8bfa3e9da5e133:c5c1:w:0:0|3e4d3ec051ff8757:c7d5:b:0:0|01121ae79cbd8621:d4f5:w:0:0|a00c4105a6c834ad:d8g8:b:0:0|3dc785fd36940ba3:i1d1:w:0:0|a2ee5223e696aa54:d5f4:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "c1c9",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d1d9",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "f5g7",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 49,
+      "source_record_index": 48
+    },
+    {
+      "selection_key": "060b4fbae9d577e61c26a30bbedd8f8688784f7a60052d3f522cd2dfe8391df5",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8 d5f4 b7b9",
+      "fen": "1c2kab2/r2na4/4b3c/p1p1p3p/1R7/2P2N3/P5n1P/C2C2N2/9/2BAKAB2 w - - 1 17",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0|816ca2f34dee7e3f:d5f4:w:1:0|84f1d106a2ff2286:b7b9:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "a2a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b5b9",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "f4e6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 31,
+      "source_record_index": 30
+    },
+    {
+      "selection_key": "0619834de0cbe27fb8037efa5e5e32c2f66751c300b10798810259effe98aeb0",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2 g1h1 h9f8 c5e4 f1f4 h1h4 f8g6 e7g5 i2f2 e3g2 i1g2 e4f2 g2h4 f2h1 f0e0 e9d9 h4i2 i6i5 i4i5 e8f7",
+      "fen": "3k1a3/9/5a3/p5N2/6b1P/P4C3/9/4B3N/4A2n1/3AK1B2 w - - 1 52",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0|48619e76889d1d56:g1h1:b:0:0|2dcbebed14005356:h9f8:w:0:0|7ffad2895e311372:c5e4:b:0:0|5700efaa379d67e9:f1f4:w:0:0|61c11ac62d41c58e:h1h4:b:0:0|703d764d526ec3d6:f8g6:w:0:0|826e48474b79485f:e7g5:b:0:0|4c2abc59c897ef6d:i2f2:w:0:0|bee26fb1503986ab:e3g2:b:0:1|8683efc7b4fcb376:i1g2:w:1:0|c2aa5e32cbfecb98:e4f2:b:1:0|aadc9562765f922a:g2h4:w:1:0|42229fa3448346ec:f2h1:b:0:1|956cfef34e630966:f0e0:w:0:0|36fe66ed3435a500:e9d9:b:0:0|6c003ba5f987aa6c:h4i2:w:0:0|a7c523f900f8dc09:i6i5:b:0:0|0fc549ff2bfc4001:i4i5:w:1:0|5aef108c6197c769:e8f7:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "f4f9",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g6e7",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "g6f8",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 102,
+      "source_record_index": 101
+    },
+    {
+      "selection_key": "061cf1d54fdc5e05c6a91695f4286d865b3a278d0e10b485b32262540f167bcc",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4 d5d2 g0e2 d2b2 g2b2 b7b2 a0a2 b2b3 a2c2 a9a7 b4c6 a7a6 c6d4 a6a7 d4b3 i8g8 g4g5 g8a8 b3d4 a8d8 i0i1 c7d5 c2c5 d5c7 c5c1 c7d5 d4f5 d8g8 i1d1 d5f4 c1c9 f9e8 d1f1 f4h3 f5d6 a7d7 c9c6",
+      "fen": "3ak1b2/4a1c2/3r2n2/2RNp1N1p/p5P2/9/P3P2nP/4B4/5R3/2BAKA3 b - - 6 29",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0|83524fb68ab67508:d5d2:b:0:0|c698e0387537674d:g0e2:w:0:0|1c2318a9d5e06c08:d2b2:b:1:0|b98bf325c41abfb2:g2b2:w:1:0|1758068c41e42c5b:b7b2:b:1:0|185b1cca927c54a2:a0a2:w:0:0|14aff02f1fdfeff3:b2b3:b:0:0|af2cbbc2aebde8e1:a2c2:w:0:0|c1192772a44b6c7b:a9a7:b:0:0|adb2f141d1cb980d:b4c6:w:0:0|70b0ba9d4ac56687:a7a6:b:0:0|8b6af80e04b525d9:c6d4:w:0:0|5668b3d29fbbdb53:a6a7:b:0:0|cf5c8e1d76592a79:d4b3:w:1:0|ee45a2c46e28dfbb:i8g8:b:0:0|055b4025941bd7fd:g4g5:w:0:0|aed8815bd753c330:g8a8:b:0:0|67b8ebb13b462a37:b3d4:w:0:0|d6a21c48161fae73:a8d8:b:0:0|57dde8d684a3fa0f:i0i1:w:0:0|351b2c2848f99c6b:c7d5:b:0:0|65334b4be17c3349:c2c5:w:0:0|07f58fb52d26552d:d5c7:b:0:0|5c8bfa3e9da5e133:c5c1:w:0:0|3e4d3ec051ff8757:c7d5:b:0:0|01121ae79cbd8621:d4f5:w:0:0|a00c4105a6c834ad:d8g8:b:0:0|3dc785fd36940ba3:i1d1:w:0:0|a2ee5223e696aa54:d5f4:b:0:0|4b1a98e054788fcb:c1c9:w:1:0|4460f9a978b66292:f9e8:b:0:0|3e27ce2f5ef809f4:d1f1:w:0:0|689ac78b0cdf2a7e:f4h3:b:0:0|03f46c5880002e5e:f5d6:w:0:0|b6e7348504aeb0fe:a7d7:b:0:0|5391ae4c10c897b3:c9c6:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "d7d6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g8g6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h3g5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 56,
+      "source_record_index": 55
+    },
+    {
+      "selection_key": "06206226e17cb6d4d24a05bca73c6e566ca0f9d717881d6c2b15266c6fe00a16",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5",
+      "fen": "rnbakab2/9/1c4n1c/2p1p1p1p/p6r1/2P2NP2/P3P3P/1CN4C1/9/R1BAKAB1R w - - 10 6",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b2b9",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f4e6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f4g6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 9,
+      "source_record_index": 8
+    },
+    {
+      "selection_key": "062b723a08089b9ae5e6b9620e347f204aac14109da5eeea670dff8195341cf5",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4 d5d2 g0e2 d2b2 g2b2 b7b2 a0a2 b2b3 a2c2 a9a7 b4c6 a7a6 c6d4 a6a7 d4b3 i8g8 g4g5 g8a8 b3d4 a8d8 i0i1 c7d5 c2c5 d5c7 c5c1 c7d5 d4f5 d8g8 i1d1 d5f4 c1c9 f9e8 d1f1 f4h3 f5d6 a7d7 c9c6 h3g5 f1f6 g5h3 e0e1 h3g5 e2g4 e8f7 f6f5 g9i7",
+      "fen": "3ak4/6c2/3r1an1b/2RNp1N1p/p4Rn2/6B2/P3P3P/9/4K4/2BA1A3 w - - 8 34",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0|83524fb68ab67508:d5d2:b:0:0|c698e0387537674d:g0e2:w:0:0|1c2318a9d5e06c08:d2b2:b:1:0|b98bf325c41abfb2:g2b2:w:1:0|1758068c41e42c5b:b7b2:b:1:0|185b1cca927c54a2:a0a2:w:0:0|14aff02f1fdfeff3:b2b3:b:0:0|af2cbbc2aebde8e1:a2c2:w:0:0|c1192772a44b6c7b:a9a7:b:0:0|adb2f141d1cb980d:b4c6:w:0:0|70b0ba9d4ac56687:a7a6:b:0:0|8b6af80e04b525d9:c6d4:w:0:0|5668b3d29fbbdb53:a6a7:b:0:0|cf5c8e1d76592a79:d4b3:w:1:0|ee45a2c46e28dfbb:i8g8:b:0:0|055b4025941bd7fd:g4g5:w:0:0|aed8815bd753c330:g8a8:b:0:0|67b8ebb13b462a37:b3d4:w:0:0|d6a21c48161fae73:a8d8:b:0:0|57dde8d684a3fa0f:i0i1:w:0:0|351b2c2848f99c6b:c7d5:b:0:0|65334b4be17c3349:c2c5:w:0:0|07f58fb52d26552d:d5c7:b:0:0|5c8bfa3e9da5e133:c5c1:w:0:0|3e4d3ec051ff8757:c7d5:b:0:0|01121ae79cbd8621:d4f5:w:0:0|a00c4105a6c834ad:d8g8:b:0:0|3dc785fd36940ba3:i1d1:w:0:0|a2ee5223e696aa54:d5f4:b:0:0|4b1a98e054788fcb:c1c9:w:1:0|4460f9a978b66292:f9e8:b:0:0|3e27ce2f5ef809f4:d1f1:w:0:0|689ac78b0cdf2a7e:f4h3:b:0:0|03f46c5880002e5e:f5d6:w:0:0|b6e7348504aeb0fe:a7d7:b:0:0|5391ae4c10c897b3:c9c6:w:0:0|1995d6e894a602d3:h3g5:b:1:0|f7f4b6c39affa222:f1f6:w:0:0|6914e5d8f4d4097d:g5h3:b:0:0|703376a1750d68c7:e0e1:w:0:0|eed325ba1b26c398:h3g5:b:0:0|d7769b07337f20a4:e2g4:w:0:0|825cc2747914a7cc:e8f7:b:0:0|3107b3dbb7999f8a:f6f5:w:0:0|a1b30fd95760ba88:g9i7:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "f5a5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f5f7",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f5g5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g6i7",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 65,
+      "source_record_index": 64
+    },
+    {
+      "selection_key": "06e1bce8110a58c5f0ee716e3851f13d77a5fac43bbeb0794a0615077bc221a6",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8 d5f4 b7b9 f4e6 d8b7 b5d5 b9d9 f0e1 b7d8 d5e5 d9d2 e1d2 d8e6 e5e6 g3f5 d2e1 f5d4 e6i6 a8b8 g2e3",
+      "fen": "4kab2/1r2a4/4b3c/p1p5R/9/2Pn5/P3N3P/C8/4A4/2BAK1B2 b - - 2 25",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0|816ca2f34dee7e3f:d5f4:w:1:0|84f1d106a2ff2286:b7b9:b:0:0|730a498ba2fc934f:f4e6:w:1:0|97e697934c3c5bd7:d8b7:b:0:0|4be99f0dddd0a98a:b5d5:w:0:0|a13b1d5a51554e6e:b9d9:b:0:0|09cf58e88dd517f6:f0e1:w:0:0|ed2386f06315df6e:b7d8:b:0:0|a180886e1a6afbef:d5e5:w:0:0|63f638e45718894c:d9d2:b:1:0|0a7ace5db5d479e4:e1d2:w:1:0|2f62a958cabba40d:d8e6:b:1:0|db1fc2b105c43dcc:e5e6:w:1:0|03c648c6105f9b2c:g3f5:b:0:0|42d047f74d00e378:d2e1:w:0:0|639dd124e8592fc2:f5d4:b:0:0|0cb7a4955e8861d7:e6i6:w:1:0|3312ba820ecfc656:a8b8:b:0:0|b0deb514e993bf70:g2e3:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "i7i3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 48,
+      "source_record_index": 47
+    },
+    {
+      "selection_key": "06e1e08ec5696214b6c8c242697eebe1be42d2001937d91e63e1c65c8d6286a7",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8",
+      "fen": "4kab2/r2na4/1c2b3c/p1p1p3p/1R1N5/2P2p3/P5n1P/C2C2N2/9/2BAKAB2 w - - 4 16",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "a2a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b5b7",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d2d8",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d5e7",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d5f4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 29,
+      "source_record_index": 28
+    },
+    {
+      "selection_key": "07f12723eb582e4f5741a873bc9e998d2db7d4ad0197b3c26766ff0d48a65aa4",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4 b3b1 h5e5 f8e8 e5e6 c6d4 e6d6 e8e4",
+      "fen": "2bakab2/9/2c6/p2R2p1p/9/2Bnr1P2/P3P3P/R4c3/1r7/1N1AKAB2 w - - 0 18",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0|37a547f2c2ebdd2b:b3b1:b:1:0|bcd03be31f3d3db0:h5e5:w:0:1|d83361c378dea0ff:f8e8:b:0:0|be3c9d38ba4e24c5:e5e6:w:0:0|0303c4ea8b3453f9:c6d4:b:0:0|6a12fe72baa15982:e6d6:w:0:1|e1f4f7adb97fc94b:e8e4:b:1:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "a2f2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6d4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6d9",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "d6e6",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "d6g6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e3e4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 6,
+      "source_game_index": 5,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 34,
+      "source_record_index": 33
+    },
+    {
+      "selection_key": "082cf84e3c968240a770c6af5ad75064c3568cf48322bbe94125abb07635a66d",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4 d5d2 g0e2 d2b2 g2b2 b7b2 a0a2 b2b3 a2c2 a9a7 b4c6 a7a6 c6d4 a6a7 d4b3 i8g8 g4g5 g8a8",
+      "fen": "2bakab2/c8/r1n3n2/4p1N1p/p5P2/9/PN2P3P/2R1B4/9/2BAKA2R w - - 3 20",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0|83524fb68ab67508:d5d2:b:0:0|c698e0387537674d:g0e2:w:0:0|1c2318a9d5e06c08:d2b2:b:1:0|b98bf325c41abfb2:g2b2:w:1:0|1758068c41e42c5b:b7b2:b:1:0|185b1cca927c54a2:a0a2:w:0:0|14aff02f1fdfeff3:b2b3:b:0:0|af2cbbc2aebde8e1:a2c2:w:0:0|c1192772a44b6c7b:a9a7:b:0:0|adb2f141d1cb980d:b4c6:w:0:0|70b0ba9d4ac56687:a7a6:b:0:0|8b6af80e04b525d9:c6d4:w:0:0|5668b3d29fbbdb53:a6a7:b:0:0|cf5c8e1d76592a79:d4b3:w:1:0|ee45a2c46e28dfbb:i8g8:b:0:0|055b4025941bd7fd:g4g5:w:0:0|aed8815bd753c330:g8a8:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b3a5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "c2c7",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 37,
+      "source_record_index": 36
+    },
+    {
+      "selection_key": "0841cbdb51d3806e11e14059dfa8934e73cb08fb5d8827937a91ae480f382f9b",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3 c5h5 i0e0 h5e5 i6i5 e1d2 e0h0 b6b7 a6a5 e5h5 c3b1 d6c4 c0c3 d0e1 h0b0 e4e5 c3c1 e1d0 c1c3 d0e1 c3c1 e1d0",
+      "fen": "2b1k4/4a4/1P1ab4/4C1p2/p3P2Cp/2N3P2/P8/3A4B/1nc2K3/1c1A5 b - - 23 37",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0|5181250ccb66e746:c5h5:w:0:0|2cbc4292ff31f0a7:i0e0:b:0:0|d617e0a17b9d8512:h5e5:w:0:0|1dd2f8fd82e2f377:i6i5:b:0:0|5cc4f7ccdfbd8b23:e1d2:w:0:0|61c199ac4ac67e09:e0h0:b:0:0|ce27384a97ab36b2:b6b7:w:0:0|46918b5a9ec2cbec:a6a5:b:0:0|bc3a29691a6ebe59:e5h5:w:0:0|381a11984095df00:c3b1:b:0:0|addbb78fccd34157:d6c4:w:0:0|a86b6f0a71843d96:c0c3:b:0:0|dda911f3786435b0:d0e1:w:0:0|e7eb92e03d699fcc:h0b0:b:0:0|994ea11f419d5156:e4e5:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|994ea11f419d5156:d0e1:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b0b7",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b1a3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 73,
+      "source_record_index": 72
+    },
+    {
+      "selection_key": "08aa753f5f6d28b3ed099dfb7e61ca1bb1309e98df45563398e6fbdfc8c7cf26",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5",
+      "fen": "r1bakabn1/4c4/1c7/p3p1p1p/2pn5/2P1P4/P3N1P1P/1C2C1N2/9/R1BAKAB2 w - - 4 9",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "c4c5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 16,
+      "source_record_index": 15
+    },
+    {
+      "selection_key": "08e6879958d9ab16b7b38534a905503898d2675281f7fc88eb72f65b8bd26c5d",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7",
+      "fen": "4kab2/1R2a4/1n2b4/p2Pp3p/3r5/P5C2/4P3P/9/2n1AN2N/2BA1KB2 w - - 7 27",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b8b7",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b8b9",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "b8e8",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "d6e6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 52,
+      "source_record_index": 51
+    },
+    {
+      "selection_key": "09d5abb7002c37c8019aa633229f94fc4dfcedacc5b95420aa6e035b65c3e1db",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4 d5d2 g0e2 d2b2 g2b2 b7b2 a0a2 b2b3 a2c2 a9a7 b4c6 a7a6 c6d4 a6a7 d4b3 i8g8 g4g5 g8a8 b3d4 a8d8 i0i1 c7d5 c2c5",
+      "fen": "2bakab2/3c5/r5n2/4p1N1p/p1Rn2P2/3N5/P3P3P/4B4/8R/2BAKA3 b - - 8 22",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0|83524fb68ab67508:d5d2:b:0:0|c698e0387537674d:g0e2:w:0:0|1c2318a9d5e06c08:d2b2:b:1:0|b98bf325c41abfb2:g2b2:w:1:0|1758068c41e42c5b:b7b2:b:1:0|185b1cca927c54a2:a0a2:w:0:0|14aff02f1fdfeff3:b2b3:b:0:0|af2cbbc2aebde8e1:a2c2:w:0:0|c1192772a44b6c7b:a9a7:b:0:0|adb2f141d1cb980d:b4c6:w:0:0|70b0ba9d4ac56687:a7a6:b:0:0|8b6af80e04b525d9:c6d4:w:0:0|5668b3d29fbbdb53:a6a7:b:0:0|cf5c8e1d76592a79:d4b3:w:1:0|ee45a2c46e28dfbb:i8g8:b:0:0|055b4025941bd7fd:g4g5:w:0:0|aed8815bd753c330:g8a8:b:0:0|67b8ebb13b462a37:b3d4:w:0:0|d6a21c48161fae73:a8d8:b:0:0|57dde8d684a3fa0f:i0i1:w:0:0|351b2c2848f99c6b:c7d5:b:0:0|65334b4be17c3349:c2c5:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "d8d4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 42,
+      "source_record_index": 41
+    },
+    {
+      "selection_key": "09da1d0eabc142fb6a707e4813ea582786aa9b375702feead4d36efe82ec0dd8",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5",
+      "fen": "rnbakab2/8c/1c4n2/4p1N1p/p1r6/6P2/P3P3P/1CN3C2/9/R1BAKAB1R w - - 0 9",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b2b9",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 15,
+      "source_record_index": 14
+    },
+    {
+      "selection_key": "0a38f59649133f4c53a35ec4f0959ae1bbc84106f7d86d4adf9333f468a211bd",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4",
+      "fen": "4ka3/4a4/4b4/p3r3p/2n6/P3P3P/2Rn2N2/9/4A1C1N/2BA1KB2 b - - 3 34",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "c5a4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "c5e4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d3e1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6e4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6f6",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 67,
+      "source_record_index": 66
+    },
+    {
+      "selection_key": "0aff7a85f0c81a71a2e34abb54ce947af2b236740328cc87ff4bdce3f2f140a9",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3",
+      "fen": "2b1k4/4a4/3ab4/pP1NC1p1p/2C6/4P1P2/P1n6/8B/4AK3/2cA4c w - - 2 27",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b6a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "c5c0",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6e8",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6i6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 52,
+      "source_record_index": 51
+    },
+    {
+      "selection_key": "0b70250596a4a20da342c0097e676971af8da453b919377028385fe1c1a4e182",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 h0g2 c6c5 i0h0 c5c4 b0a2 i9h9 h0h4 b9a7 h4c4 a9b9 a0b0 b9b6 b2c2 b6b0 a2b0 c7c2 b0c2 g9e7 c4h4 h7h5 e3e4 g6g5 g3g4 g5g4 h4g4 h5g5 e4e5 f9e8 e5e6 g7e6 g2e3 h9h6 g4e4 e6c5 e4g4 c5b3 g4g1 a7c6 g1d1 h6h3 d1d3 g5g3 e3f5 c6a5 f5g3 b3c1 d3d1 a5b3 d0e1 h3g3 e0d0 e9f9 e1d2 g3g0",
+      "fen": "2ba1k3/4a4/4b4/p7p/9/9/Pn6P/2NAC4/2nR5/2BK1Ar2 w - - 0 30",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|21fed39c1d4728ff:h0g2:w:0:0|eaae486555cae4d7:c6c5:b:0:0|4d9eebceef5c672a:i0h0:w:0:0|b9de8c906969d500:c5c4:b:1:0|19ff28689ca44a0f:b0a2:w:0:0|989bf91452110924:i9h9:b:0:0|145172bf80891469:h0h4:w:0:0|8d3eedf77f74828b:b9a7:b:0:0|673d9200f014cef5:h4c4:w:1:0|1cb3110f7c3a5c19:a9b9:b:0:0|fa1b8ee49d1ed814:a0b0:w:0:0|4fa41c94f2b69bcc:b9b6:b:0:0|4b3948a274c1c0d8:b2c2:w:0:0|4af2c6f78c422978:b6b0:b:1:0|3401ef8b1d9da3c1:a2b0:w:1:0|ddcfd0c63fca9052:c7c2:b:1:0|39022f97d24ee107:b0c2:w:1:0|f889fa15b031b83b:g9e7:b:0:0|696dc0d9bd650c53:c4h4:w:0:0|c3310f3d3c817f2c:h7h5:b:0:0|685262e8d1a5e467:e3e4:w:0:0|5006cd3651ef626c:g6g5:b:0:0|96f047cc9a8ed841:g3g4:w:0:0|ef791bee8da131ac:g5g4:b:1:0|f76aefa528b04bb0:h4g4:w:1:0|17c6e7943013a192:h5g5:b:0:0|6963d46b4ce76f08:e4e5:w:0:0|6619b52260298251:f9e8:b:0:0|483bfd74eacdc6e9:e5e6:w:1:0|19e056f407f4df84:g7e6:b:1:0|9a2c5962e0a8a6a2:g2e3:w:0:0|30f594367e4e8415:h9h6:b:0:0|5e1458b2ba2448b2:g4e4:w:0:0|44b9bd13a2a7a316:e6c5:b:0:0|2a58719766cd6fb1:e4g4:w:0:0|0f6a7afe759d0939:c5b3:b:0:0|b47bc1d34d61011f:g4g1:w:0:0|c05f169da2a1c539:a7c6:b:0:0|50ab9753c893b9a2:g1d1:w:0:0|3827e2badc5da56d:h6h3:b:0:0|7a11e68ad0c552a8:d1d3:w:0:0|aaea16a7d636fd32:g5g3:b:0:0|f2fdebc4e26b3db8:e3f5:w:0:0|34905e53f8a00daf:c6a5:b:0:0|030a2656c2997d4f:f5g3:w:1:0|9e60dee9db26afa7:b3c1:b:0:1|dc56dad9d7be5862:d3d1:w:0:0|2cc5e864fb1e6587:a5b3:b:0:0|5907969df2fe6da1:d0e1:w:0:0|11d027e4cf17b506:h3g3:b:1:0|d78ce5fa824a3e1f:e0d0:w:0:0|6727a3a12c04bc75:e9f9:b:0:0|2631ac90715bc421:e1d2:w:0:0|822613169b6457f1:g3g0:b:1:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "d1c1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d1f1",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "e2e8",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 58,
+      "source_record_index": 57
+    },
+    {
+      "selection_key": "0b907b7732c6e43d1ee1d2d8d879f9a271ca18d9826ed9e8e8d9c121a1f0b357",
+      "position": "position startpos moves h2e2 h9g7 h0g2 g6g5 b0c2 i9h9 i0h0 h7h3 e3e4",
+      "fen": "rnbakabr1/9/1c4n2/p1p1p3p/6p2/4P4/P1P3PcP/1CN1C1N2/9/R1BAKABR1 b - - 9 5",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|a797fbc095c73aca:g6g5:b:0:0|8c91e43c2f1dec59:b0c2:w:0:0|0df53540e1a8af72:i9h9:b:0:0|aac596eb5b3e2c8f:i0h0:w:0:0|ab96f3ac4dded826:h7h3:b:0:0|00f59e79a0fa436d:e3e4:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "h3c3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 4,
+      "source_game_index": 3,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 8,
+      "source_record_index": 7
+    },
+    {
+      "selection_key": "0bddbb8e315d8406c11c631bc7444a9a785408cf6ac31c17ecd7d23845900652",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4",
+      "fen": "2bakab2/5r3/2c6/p1n3p1p/7R1/2B1C1P2/Pr2P3P/R4c3/1C7/1N1AKAB2 b - - 8 14",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b3a3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b3b1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b3e3",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "c7c4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 6,
+      "source_game_index": 5,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 27,
+      "source_record_index": 26
+    },
+    {
+      "selection_key": "0c3379f908558a28465acb39d0a07cb8c90f104c2cde482ac079ceccb6d3e176",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2 g1h1 h9f8",
+      "fen": "4ka3/4aN3/4b4/p7p/2n6/P7P/4n4/4B3R/4AC1rN/3A1KB2 b - - 9 43",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0|48619e76889d1d56:g1h1:b:0:0|2dcbebed14005356:h9f8:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "c5a4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e3g2",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "h1f1",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "h1i1",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 85,
+      "source_record_index": 84
+    },
+    {
+      "selection_key": "0d1c875889b9831eb5033976f9cfee4a7d51792a5144e53f4fbce1b2f824e73e",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8 d5f4 b7b9 f4e6 d8b7 b5d5 b9d9 f0e1 b7d8 d5e5 d9d2 e1d2 d8e6 e5e6 g3f5 d2e1 f5d4 e6i6 a8b8 g2e3 b8b3 e3g4 b3g3 g0i2 d4f3 a2f2 f3g5 i6i5 a6a5 f2e2 e9d9 e2e3 i7g7 e3e2 g7h7 e2f2 h7h0 f2f6 g9i7 i5h5 h0i0 h5h4 g5e4 f6f2 d9e9 g4h6 e4c3 e0f0 i7g9 h4g4 g3g4 i2g4 i0h0 f2d2 h0g0 h6f5 c6c5 f5d6 c5c4 d6c8 e9d9 c8d6 d9e9",
+      "fen": "4kab2/4a4/4b4/3N5/p8/2p3B2/P1n5P/3C5/4A4/2BA1Kc2 w - - 4 47",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0|816ca2f34dee7e3f:d5f4:w:1:0|84f1d106a2ff2286:b7b9:b:0:0|730a498ba2fc934f:f4e6:w:1:0|97e697934c3c5bd7:d8b7:b:0:0|4be99f0dddd0a98a:b5d5:w:0:0|a13b1d5a51554e6e:b9d9:b:0:0|09cf58e88dd517f6:f0e1:w:0:0|ed2386f06315df6e:b7d8:b:0:0|a180886e1a6afbef:d5e5:w:0:0|63f638e45718894c:d9d2:b:1:0|0a7ace5db5d479e4:e1d2:w:1:0|2f62a958cabba40d:d8e6:b:1:0|db1fc2b105c43dcc:e5e6:w:1:0|03c648c6105f9b2c:g3f5:b:0:0|42d047f74d00e378:d2e1:w:0:0|639dd124e8592fc2:f5d4:b:0:0|0cb7a4955e8861d7:e6i6:w:1:0|3312ba820ecfc656:a8b8:b:0:0|b0deb514e993bf70:g2e3:w:0:0|8184ef623403e906:b8b3:b:0:0|d7d3d633b4a83a5d:e3g4:w:0:0|dfb9279322efd0b7:b3g3:b:0:0|00b576dd7ed145b4:g0i2:w:0:0|a57d8345876af990:d4f3:b:0:0|86b9275a50f71662:a2f2:w:0:0|5ecc100626d27ea4:f3g5:b:0:0|02cf2cddab2fc574:i6i5:w:0:0|8a799fcda246382a:a6a5:b:0:0|2c11d401e0d07ade:f2e2:w:0:0|8f834c1f9a86d6b8:e9d9:b:0:0|a5ecb31228959c80:e2e3:w:0:0|d48d6fbb53868657:i7g7:b:0:0|fee290b6e195cc6f:e3e2:w:0:0|162c0c079f80e073:g7h7:b:0:0|b04447cbdd16a287:e2f2:w:0:0|6a4c1a0b52c510d7:h7h0:b:0:0|e8850e96dd38c75b:f2f6:w:0:0|7831b2943dc1e259:g9i7:b:0:0|78a815611fa1cb9e:i5h5:w:0:0|831771faeae90b50:h0i0:b:0:0|c59110e2f7082af6:h5h4:w:0:0|44ee3ed326e6a276:g5e4:b:0:0|c6272a4ea91b75fa:f6f2:w:0:0|65b5b250d34dd99c:d9e9:b:0:0|97c8a8e52877410c:g4h6:w:0:0|eea47e2d51144b1a:e4c3:b:0:0|39ea1f7d5bf40490:e0f0:w:0:0|a95ea37fbb0d2192:i7g9:b:0:0|0e72ec9fd74982e8:h4g4:w:0:0|ba6c8cca02ab2627:g3g4:b:1:0|f62d50148ccd8e53:i2g4:w:1:0|0d92348f79854e9d:i0h0:b:0:0|5a5bebae497bcb03:f2d2:w:0:0|4fd672ad87467e91:h0g0:b:0:0|b3ebac2ac88af5d0:h6f5:w:0:0|78bb37d3800739f8:c6c5:b:0:0|13d59c000cd83dd8:f5d6:w:0:0|e795fb5e8aed8ff2:c5c4:b:1:0|0df8894307c906b2:d6c8:w:0:1|ae6a115d7d9faad4:e9d9:b:0:0|44076340f0bb2394:c8d6:w:0:1|e795fb5e8aed8ff2:d9e9:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "d6c4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6c8",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "d6e8",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d6f7",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 91,
+      "source_record_index": 90
+    },
+    {
+      "selection_key": "0dcabc477030f749d066e3282b212896c68ab5163cdc9a06f3053784850ebb63",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3 c5h5 i0e0 h5e5 i6i5 e1d2 e0h0 b6b7 a6a5 e5h5 c3b1 d6c4 c0c3 d0e1 h0b0 e4e5 c3c1 e1d0 c1c3 d0e1 c3c1 e1d0 c1c3 c4d6 b1d2 f1e1 d2f3 e1f1 b0b4 f1f0 c3c0 d0e1 f3e5",
+      "fen": "2b1k4/4a4/1P1ab4/3NC1p2/p3n2Cp/1c4P2/P8/8B/4A4/2c2K3 w - - 0 43",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0|5181250ccb66e746:c5h5:w:0:0|2cbc4292ff31f0a7:i0e0:b:0:0|d617e0a17b9d8512:h5e5:w:0:0|1dd2f8fd82e2f377:i6i5:b:0:0|5cc4f7ccdfbd8b23:e1d2:w:0:0|61c199ac4ac67e09:e0h0:b:0:0|ce27384a97ab36b2:b6b7:w:0:0|46918b5a9ec2cbec:a6a5:b:0:0|bc3a29691a6ebe59:e5h5:w:0:0|381a11984095df00:c3b1:b:0:0|addbb78fccd34157:d6c4:w:0:0|a86b6f0a71843d96:c0c3:b:0:0|dda911f3786435b0:d0e1:w:0:0|e7eb92e03d699fcc:h0b0:b:0:0|994ea11f419d5156:e4e5:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|994ea11f419d5156:d0e1:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|794d79f1c43bc727:c4d6:w:0:0|410d61eb311ea15a:b1d2:b:1:1|570f7fa1a8860b0e:f1e1:w:0:0|cd6341a43f96db0d:d2f3:b:0:1|db615feea60e7159:e1f1:w:0:0|bb4a94b0f6316f31:b0b4:b:0:0|632178d3e490eb55:f1f0:w:0:0|6691a05659c79794:c3c0:b:0:1|1353deaf50279fb2:d0e1:w:0:0|48489f5652dc29c7:f3e5:b:1:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "e6e8",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h5a5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 84,
+      "source_record_index": 83
+    },
+    {
+      "selection_key": "0e0415b21a729c65ebade3d5d47b05b59ab45617f0040f75855db2cdfdf38b71",
+      "position": "position startpos moves h2e2 h9g7",
+      "fen": "rnbakab1r/9/1c4nc1/p1p1p1p1p/9/9/P1P1P1P1P/1C2C4/9/RNBAKABNR w - - 2 2",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b2b9",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e2e6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 2,
+      "source_record_index": 1
+    },
+    {
+      "selection_key": "0e04cf14a03168ec4593108d2f2428b3409c2e5533b3a8dace7d8bc9e570a499",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 h0g2 c6c5 i0h0 c5c4 b0a2 i9h9 h0h4 b9a7 h4c4 a9b9 a0b0 b9b6 b2c2 b6b0 a2b0 c7c2 b0c2 g9e7 c4h4 h7h5 e3e4 g6g5 g3g4 g5g4 h4g4 h5g5",
+      "fen": "2baka1r1/9/n3b1n2/p3p3p/6c2/4P1R2/P7P/2N1C1N2/9/2BAKAB2 w - - 1 16",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|21fed39c1d4728ff:h0g2:w:0:0|eaae486555cae4d7:c6c5:b:0:0|4d9eebceef5c672a:i0h0:w:0:0|b9de8c906969d500:c5c4:b:1:0|19ff28689ca44a0f:b0a2:w:0:0|989bf91452110924:i9h9:b:0:0|145172bf80891469:h0h4:w:0:0|8d3eedf77f74828b:b9a7:b:0:0|673d9200f014cef5:h4c4:w:1:0|1cb3110f7c3a5c19:a9b9:b:0:0|fa1b8ee49d1ed814:a0b0:w:0:0|4fa41c94f2b69bcc:b9b6:b:0:0|4b3948a274c1c0d8:b2c2:w:0:0|4af2c6f78c422978:b6b0:b:1:0|3401ef8b1d9da3c1:a2b0:w:1:0|ddcfd0c63fca9052:c7c2:b:1:0|39022f97d24ee107:b0c2:w:1:0|f889fa15b031b83b:g9e7:b:0:0|696dc0d9bd650c53:c4h4:w:0:0|c3310f3d3c817f2c:h7h5:b:0:0|685262e8d1a5e467:e3e4:w:0:0|5006cd3651ef626c:g6g5:b:0:0|96f047cc9a8ed841:g3g4:w:0:0|ef791bee8da131ac:g5g4:b:1:0|f76aefa528b04bb0:h4g4:w:1:0|17c6e7943013a192:h5g5:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "e2e6",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "g4g5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 30,
+      "source_record_index": 29
+    },
+    {
+      "selection_key": "0e1344b3c6922fbca90cd91d454cc7cc6e70016b1f69a02dc847ca4fbf136215",
+      "position": "position startpos moves c3c4 a6a5 b0c2 g6g5 h2e2 h7e7 h0g2 h9g7 i0h0 b9c7 c2d4 i9i8 h0h6 b7b3",
+      "fen": "r1bakab2/8r/2n1c1n2/2p1p2Rp/p5p2/2PN5/Pc2P1P1P/1C2C1N2/9/R1BAKAB2 w - - 14 8",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|4fbe212ffa128438:g6g5:b:0:0|5f977b45d54b7dd5:h2e2:w:0:0|806cf1b8f8818435:h7e7:b:0:0|d0cc4f1758eeb9bc:h0g2:w:0:0|0e8df289a9c4a108:h9g7:b:0:0|a9bd5122135222f5:i0h0:w:0:0|b1c6cbad9ddf9ca9:b9c7:b:0:0|c3cfe5e26b4c3ad2:c2d4:w:0:0|a34b4e4fd19d1fa5:i9i8:b:0:0|01b14c1228da9b77:h0h6:w:0:0|8a117290dcbb0de9:b7b3:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "d4c6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d4e6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e2e6",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "h6e6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h6i6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 8,
+      "source_game_index": 7,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 13,
+      "source_record_index": 12
+    },
+    {
+      "selection_key": "0e332c096d182b733fe3cbb7052bc49085cd0e1e6675ab9f8f786d1c876e13f5",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3 c5h5 i0e0 h5e5 i6i5 e1d2 e0h0 b6b7 a6a5 e5h5 c3b1 d6c4 c0c3",
+      "fen": "2b1k4/4a4/1P1ab4/4C1p2/p6Cp/2N1P1P2/P1c6/3A4B/1n3K3/3A3c1 w - - 14 33",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0|5181250ccb66e746:c5h5:w:0:0|2cbc4292ff31f0a7:i0e0:b:0:0|d617e0a17b9d8512:h5e5:w:0:0|1dd2f8fd82e2f377:i6i5:b:0:0|5cc4f7ccdfbd8b23:e1d2:w:0:0|61c199ac4ac67e09:e0h0:b:0:0|ce27384a97ab36b2:b6b7:w:0:0|46918b5a9ec2cbec:a6a5:b:0:0|bc3a29691a6ebe59:e5h5:w:0:0|381a11984095df00:c3b1:b:0:0|addbb78fccd34157:d6c4:w:0:0|a86b6f0a71843d96:c0c3:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "c4a5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6e8",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 64,
+      "source_record_index": 63
+    },
+    {
+      "selection_key": "0e58578c756d7aaf53c66635af72487bcc2045235e44e3c45cbde3143cd02846",
+      "position": "position startpos moves c3c4 a6a5 b0c2 g6g5 h2e2 h7e7 h0g2 h9g7 i0h0 b9c7 c2d4 i9i8 h0h6 b7b3 c4c5 b3g3 c5c6 a5a4 f0e1 i8d8 d4b5 c7a6 a3a4 a6b4 e2d2 d8c8 c6c7 c8d8 a4a5 b4c2 a0a4 d8d5 h6h4 g7f5 b2a2 g3g0 d2e2 d9e8 e2e6 g5g4 h4h5 d5b5 a5b5 a9a4 h5f5 a4a6 e6b6 g4g3 f5c5 c2d4 c5c4 d4f3 g2h0",
+      "fen": "2b1kab2/4a4/2P1c4/rC6p/1P7/2R6/4Pnp1P/C8/4A4/2BAK1cN1 b - - 8 27",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|4fbe212ffa128438:g6g5:b:0:0|5f977b45d54b7dd5:h2e2:w:0:0|806cf1b8f8818435:h7e7:b:0:0|d0cc4f1758eeb9bc:h0g2:w:0:0|0e8df289a9c4a108:h9g7:b:0:0|a9bd5122135222f5:i0h0:w:0:0|b1c6cbad9ddf9ca9:b9c7:b:0:0|c3cfe5e26b4c3ad2:c2d4:w:0:0|a34b4e4fd19d1fa5:i9i8:b:0:0|01b14c1228da9b77:h0h6:w:0:0|8a117290dcbb0de9:b7b3:b:0:0|4b961ce12860133b:c4c5:w:0:0|0b983a4f1b8decad:b3g3:b:1:0|991e1c64b441b2db:c5c6:w:1:0|df693009a695e784:a5a4:b:0:0|779d75bb7a15be1c:f0e1:w:0:0|df0a6efbb3400ebe:i8d8:b:0:0|9998fe3ef70b1731:d4b5:w:0:0|feb123a1c19aa17c:c7a6:b:0:0|3a8e17fa03533167:a3a4:w:1:0|64fc847bf7369cef:a6b4:b:0:0|2eda7df3d13a7980:e2d2:w:0:0|d638e455381b79d9:d8c8:b:0:0|4196a0ecd2be7f28:c6c7:w:0:0|b974394a3b9f7f71:c8d8:b:0:0|4cfb01d22bdd7b90:a4a5:w:0:0|9e7220d0ca582684:b4c2:b:0:0|0be65f3b5837d9d4:a0a4:w:0:0|1825236e060abb75:d8d5:b:0:0|8d92c7fd79b100ef:h6h4:w:0:0|3efd1e32b19eb8f9:g7f5:b:0:0|bd2093c5ca22a302:b2a2:w:0:0|ce126e67f62754f4:g3g0:b:1:0|843497efd02bb19b:d2e2:w:0:0|2ae3ade5e571db58:d9e8:b:0:0|e399c27f4f8d5a72:e2e6:w:1:0|1e6d3a661cb0a7e3:g5g4:b:0:0|58eb5b7e01518645:h4h5:w:0:0|27c018b876e27022:d5b5:b:1:0|895534dc07254f53:a5b5:w:1:0|9126d4affb43f9c7:a9a4:b:1:0|7b75d7479ac6dad4:h5f5:w:1:0|1e84c46fd76ca5f1:a4a6:b:0:0|4cf1ac943c22f38a:e6b6:w:0:0|d40f771ca6602db6:g4g3:b:0:0|c249db9db0235839:f5c5:w:0:0|61943fda3c98854c:c2d4:b:0:0|f60597f3abfb42b8:c5c4:w:0:0|53cd626b5240fe9c:d4f3:b:0:0|036ddcc4f22fc315:g2h0:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "a6a2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "a6b6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e7e1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f3e1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f3g1",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "g0d0",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 8,
+      "source_game_index": 7,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 52,
+      "source_record_index": 51
+    },
+    {
+      "selection_key": "0f26c4ea8929424fdc589390b8a5cfd135e4ce5dafa0d2b0a99fb5b0bf8cd44f",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7",
+      "fen": "1rbaka1n1/4c4/4b4/p3p1p1p/2P6/4P4/Pcn1N1P1P/2C1C1N2/4A4/1RBAK1B2 w - - 7 13",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b0b3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 24,
+      "source_record_index": 23
+    },
+    {
+      "selection_key": "0f3e856b4395e6f86d1bbcce41dfbcbcd1cf7d773cfcbdee473280bf918dce68",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5 b9d8 e2d2 a9a8 d5f4 b7b9 f4e6 d8b7 b5d5 b9d9 f0e1 b7d8 d5e5 d9d2 e1d2 d8e6 e5e6 g3f5 d2e1 f5d4 e6i6 a8b8 g2e3 b8b3 e3g4 b3g3 g0i2 d4f3 a2f2 f3g5 i6i5 a6a5 f2e2",
+      "fen": "4kab2/4a4/4b3c/2p6/p5n1R/2P3N2/P5r1P/4C3B/4A4/2BAK4 b - - 12 30",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0|4d0841ef9a2b1b78:b9d8:b:0:0|072eb867bc27fe17:e2d2:w:0:0|5371fabd808e06ce:a9a8:b:0:0|816ca2f34dee7e3f:d5f4:w:1:0|84f1d106a2ff2286:b7b9:b:0:0|730a498ba2fc934f:f4e6:w:1:0|97e697934c3c5bd7:d8b7:b:0:0|4be99f0dddd0a98a:b5d5:w:0:0|a13b1d5a51554e6e:b9d9:b:0:0|09cf58e88dd517f6:f0e1:w:0:0|ed2386f06315df6e:b7d8:b:0:0|a180886e1a6afbef:d5e5:w:0:0|63f638e45718894c:d9d2:b:1:0|0a7ace5db5d479e4:e1d2:w:1:0|2f62a958cabba40d:d8e6:b:1:0|db1fc2b105c43dcc:e5e6:w:1:0|03c648c6105f9b2c:g3f5:b:0:0|42d047f74d00e378:d2e1:w:0:0|639dd124e8592fc2:f5d4:b:0:0|0cb7a4955e8861d7:e6i6:w:1:0|3312ba820ecfc656:a8b8:b:0:0|b0deb514e993bf70:g2e3:w:0:0|8184ef623403e906:b8b3:b:0:0|d7d3d633b4a83a5d:e3g4:w:0:0|dfb9279322efd0b7:b3g3:b:0:0|00b576dd7ed145b4:g0i2:w:0:0|a57d8345876af990:d4f3:b:0:0|86b9275a50f71662:a2f2:w:0:0|5ecc100626d27ea4:f3g5:b:0:0|02cf2cddab2fc574:i6i5:w:0:0|8a799fcda246382a:a6a5:b:0:0|2c11d401e0d07ade:f2e2:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "g3a3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g3g0",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "g3g4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g3i3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "i7i3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 58,
+      "source_record_index": 57
+    },
+    {
+      "selection_key": "10f8966c0778967e94956f63d62a2a78645d1db8f9aae703b7b46d3f4990a8c0",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3 c5h5 i0e0",
+      "fen": "2b1k4/4a4/3ab4/pP1NC1p1p/7C1/4P1P2/P1n6/8B/4AK3/2cAc4 w - - 4 28",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0|5181250ccb66e746:c5h5:w:0:0|2cbc4292ff31f0a7:i0e0:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "b6a6",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6e8",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e6i6",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 54,
+      "source_record_index": 53
+    },
+    {
+      "selection_key": "11f83e31085c7e49cf4bb360ecab1d35c1e2cf3894e0de380d8edcab844c7435",
+      "position": "position startpos moves h2e2 h9g7 h0g2 g6g5 b0c2 i9h9 i0h0 h7h3 e3e4 b7e7 d0e1 b9c7 c3c4 a9b9",
+      "fen": "1rbakabr1/9/2n1c1n2/p1p1p3p/6p2/2P1P4/P5PcP/1CN1C1N2/4A4/R1B1KABR1 w - - 14 8",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|a797fbc095c73aca:g6g5:b:0:0|8c91e43c2f1dec59:b0c2:w:0:0|0df53540e1a8af72:i9h9:b:0:0|aac596eb5b3e2c8f:i0h0:w:0:0|ab96f3ac4dded826:h7h3:b:0:0|00f59e79a0fa436d:e3e4:w:0:0|cc2015915a7b4b13:b7e7:b:0:0|b9e26b68539b4335:d0e1:w:0:0|a199f1e7dd16fd69:b9c7:b:0:0|74c8debf7f6cb486:c3c4:w:0:0|0f465db0f342266a:a9b9:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "e2e6",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "h0h3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 4,
+      "source_game_index": 3,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 13,
+      "source_record_index": 12
+    },
+    {
+      "selection_key": "12887f7375d97ada11b60a58ebf95ce57d4fe43edd5dbf26ce6dd35ebb5c1c56",
+      "position": "position startpos moves h2e2 h9g7 h0g2 g6g5 b0c2 i9h9 i0h0 h7h3 e3e4 b7e7 d0e1 b9c7 c3c4 a9b9 b2b4 b9b5 a0b0 g7f5 b4b3 h3h1 b3b1 h1h3 b1b3 h3h1 b3b1",
+      "fen": "2bakabr1/9/2n1c4/p1p1p3p/1r3np2/2P1P4/P5P1P/2N1C1N2/1C2A2c1/1RB1KABR1 b - - 25 13",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|a797fbc095c73aca:g6g5:b:0:0|8c91e43c2f1dec59:b0c2:w:0:0|0df53540e1a8af72:i9h9:b:0:0|aac596eb5b3e2c8f:i0h0:w:0:0|ab96f3ac4dded826:h7h3:b:0:0|00f59e79a0fa436d:e3e4:w:0:0|cc2015915a7b4b13:b7e7:b:0:0|b9e26b68539b4335:d0e1:w:0:0|a199f1e7dd16fd69:b9c7:b:0:0|74c8debf7f6cb486:c3c4:w:0:0|0f465db0f342266a:a9b9:b:0:0|eb6bc7bc2883e8be:b2b4:w:0:0|ca331aa6fed73e87:b9b5:b:0:0|2c9b854d1ff3ba8a:a0b0:w:0:0|9ff45c82d7dc029c:g7f5:b:0:0|3124164de84692bb:b4b3:w:0:0|b1943fd559b0e680:h3h1:b:0:0|fdce02eb5a9685cc:b3b1:w:0:0|7d7e2b73eb60f1f7:h1h3:b:0:0|3124164de84692bb:b1b3:w:0:0|b1943fd559b0e680:h3h1:b:0:0|fdce02eb5a9685cc:b3b1:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b5b1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e7e4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f5g3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h1b1",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 4,
+      "source_game_index": 3,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 24,
+      "source_record_index": 23
+    },
+    {
+      "selection_key": "12c6a2c519cf2b086f56420013e7808599a2c6ab8b104c419bc23e3a838d17f3",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2 g1h1 h9f8 c5e4 f1f4 h1h4 f8g6 e7g5 i2f2 e3g2 i1g2 e4f2 g2h4 f2h1 f0e0",
+      "fen": "4ka3/4a4/9/p5N1p/6b2/P4C1NP/9/4B4/4A2n1/3AK1B2 b - - 2 49",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0|48619e76889d1d56:g1h1:b:0:0|2dcbebed14005356:h9f8:w:0:0|7ffad2895e311372:c5e4:b:0:0|5700efaa379d67e9:f1f4:w:0:0|61c11ac62d41c58e:h1h4:b:0:0|703d764d526ec3d6:f8g6:w:0:0|826e48474b79485f:e7g5:b:0:0|4c2abc59c897ef6d:i2f2:w:0:0|bee26fb1503986ab:e3g2:b:0:1|8683efc7b4fcb376:i1g2:w:1:0|c2aa5e32cbfecb98:e4f2:b:1:0|aadc9562765f922a:g2h4:w:1:0|42229fa3448346ec:f2h1:b:0:1|956cfef34e630966:f0e0:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "h1f2",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 97,
+      "source_record_index": 96
+    },
+    {
+      "selection_key": "1327c79703427c9eddff0745bc216297b968acfc86d22946002bc3b2e6218833",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 h0g2 c6c5 i0h0 c5c4 b0a2 i9h9 h0h4 b9a7 h4c4 a9b9 a0b0 b9b6 b2c2 b6b0 a2b0 c7c2 b0c2 g9e7 c4h4 h7h5 e3e4 g6g5 g3g4 g5g4 h4g4 h5g5 e4e5 f9e8 e5e6 g7e6 g2e3 h9h6 g4e4 e6c5 e4g4 c5b3 g4g1 a7c6 g1d1 h6h3 d1d3 g5g3 e3f5 c6a5 f5g3 b3c1 d3d1 a5b3 d0e1 h3g3 e0d0 e9f9 e1d2 g3g0 d1f1 f9e9 d0d1 g0g3 f1h1 e9f9 i3i4 c1a0 f0e1 a0b2 h1f1 f9e9 f1h1 e9f9 h1h9 e7g9 h9h4 g3e3 h4f4 f9e9 f4f3 e3e2 f3b3 b2c0 b3b0 c0e1 b0e0 i6i5 c2d4 e2e7",
+      "fen": "2bak1b2/4a4/4r4/p8/8p/3N4P/P8/3A5/3Kn4/4R4 w - - 4 45",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|21fed39c1d4728ff:h0g2:w:0:0|eaae486555cae4d7:c6c5:b:0:0|4d9eebceef5c672a:i0h0:w:0:0|b9de8c906969d500:c5c4:b:1:0|19ff28689ca44a0f:b0a2:w:0:0|989bf91452110924:i9h9:b:0:0|145172bf80891469:h0h4:w:0:0|8d3eedf77f74828b:b9a7:b:0:0|673d9200f014cef5:h4c4:w:1:0|1cb3110f7c3a5c19:a9b9:b:0:0|fa1b8ee49d1ed814:a0b0:w:0:0|4fa41c94f2b69bcc:b9b6:b:0:0|4b3948a274c1c0d8:b2c2:w:0:0|4af2c6f78c422978:b6b0:b:1:0|3401ef8b1d9da3c1:a2b0:w:1:0|ddcfd0c63fca9052:c7c2:b:1:0|39022f97d24ee107:b0c2:w:1:0|f889fa15b031b83b:g9e7:b:0:0|696dc0d9bd650c53:c4h4:w:0:0|c3310f3d3c817f2c:h7h5:b:0:0|685262e8d1a5e467:e3e4:w:0:0|5006cd3651ef626c:g6g5:b:0:0|96f047cc9a8ed841:g3g4:w:0:0|ef791bee8da131ac:g5g4:b:1:0|f76aefa528b04bb0:h4g4:w:1:0|17c6e7943013a192:h5g5:b:0:0|6963d46b4ce76f08:e4e5:w:0:0|6619b52260298251:f9e8:b:0:0|483bfd74eacdc6e9:e5e6:w:1:0|19e056f407f4df84:g7e6:b:1:0|9a2c5962e0a8a6a2:g2e3:w:0:0|30f594367e4e8415:h9h6:b:0:0|5e1458b2ba2448b2:g4e4:w:0:0|44b9bd13a2a7a316:e6c5:b:0:0|2a58719766cd6fb1:e4g4:w:0:0|0f6a7afe759d0939:c5b3:b:0:0|b47bc1d34d61011f:g4g1:w:0:0|c05f169da2a1c539:a7c6:b:0:0|50ab9753c893b9a2:g1d1:w:0:0|3827e2badc5da56d:h6h3:b:0:0|7a11e68ad0c552a8:d1d3:w:0:0|aaea16a7d636fd32:g5g3:b:0:0|f2fdebc4e26b3db8:e3f5:w:0:0|34905e53f8a00daf:c6a5:b:0:0|030a2656c2997d4f:f5g3:w:1:0|9e60dee9db26afa7:b3c1:b:0:1|dc56dad9d7be5862:d3d1:w:0:0|2cc5e864fb1e6587:a5b3:b:0:0|5907969df2fe6da1:d0e1:w:0:0|11d027e4cf17b506:h3g3:b:1:0|d78ce5fa824a3e1f:e0d0:w:0:0|6727a3a12c04bc75:e9f9:b:0:0|2631ac90715bc421:e1d2:w:0:0|822613169b6457f1:g3g0:b:1:0|f8612490bd2a3c97:d1f1:w:0:1|48ca62cb1364befd:f9e9:b:0:0|8285747d5df5249b:d0d1:w:0:0|002ec562559571b8:g0g3:b:0:0|c0b1074de00999cc:f1h1:w:0:0|701a41164e471ba6:e9f9:b:0:0|d143ff2c1284cd3b:i3i4:w:0:0|92d0f7150e8834d4:c1a0:b:0:0|3a24b2a7d2086d4c:f0e1:w:0:0|01948bea6bd677a2:a0b2:b:0:0|c10b49c5de4a9fd6:h1f1:w:0:1|71a00f9e70041dbc:f9e9:b:0:0|b13fcdb1c598f5c8:f1h1:w:0:0|01948bea6bd677a2:e9f9:b:0:0|5c0cab4750baa98a:h1h9:w:0:1|9d877ec532c5f0b6:e7g9:b:0:0|4d89b3a7f095584e:h9h4:w:0:0|63f6b456696156d8:g3e3:b:0:0|8e0874d1663b5c9b:h4f4:w:0:1|3ea3328ac875def1:f9e9:b:0:0|1a6cd71b011e3460:f4f3:w:0:0|524f445c21234509:e3e2:b:1:0|35b382bcbc8c60ee:f3b3:w:1:0|e75d8eff71d7d7d9:b2c0:b:1:0|e0082f159c19a563:b3b0:w:0:0|db41627a2580f631:c0e1:b:1:0|15304d902531ee17:b0e0:w:0:0|def555ccdc4e9872:i6i5:b:0:0|acfc7b832add3e09:c2d4:w:0:0|544d278f46b46c92:e2e7:b:0:0",
+      "side_to_move": "red",
+      "tactical_moves": [
+        {
+          "move": "d2e1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e0e1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "i4i5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 88,
+      "source_record_index": 87
+    },
+    {
+      "selection_key": "13c7cc19ab265c1ee39dddb7eaac20b81b090098522aced6db8bb55cd56fb678",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 h0g2 c6c5 i0h0 c5c4 b0a2 i9h9 h0h4 b9a7 h4c4 a9b9 a0b0 b9b6 b2c2 b6b0 a2b0 c7c2 b0c2 g9e7 c4h4 h7h5 e3e4 g6g5 g3g4 g5g4 h4g4 h5g5 e4e5 f9e8 e5e6 g7e6 g2e3 h9h6 g4e4 e6c5 e4g4 c5b3 g4g1 a7c6 g1d1 h6h3 d1d3 g5g3 e3f5 c6a5 f5g3 b3c1 d3d1 a5b3 d0e1 h3g3 e0d0 e9f9 e1d2 g3g0 d1f1 f9e9 d0d1 g0g3 f1h1 e9f9 i3i4 c1a0 f0e1 a0b2 h1f1 f9e9 f1h1",
+      "fen": "2bak4/4a4/4b4/p7p/9/8P/Pn4r2/1nNAC4/3KA2R1/2B6 b - - 13 36",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|21fed39c1d4728ff:h0g2:w:0:0|eaae486555cae4d7:c6c5:b:0:0|4d9eebceef5c672a:i0h0:w:0:0|b9de8c906969d500:c5c4:b:1:0|19ff28689ca44a0f:b0a2:w:0:0|989bf91452110924:i9h9:b:0:0|145172bf80891469:h0h4:w:0:0|8d3eedf77f74828b:b9a7:b:0:0|673d9200f014cef5:h4c4:w:1:0|1cb3110f7c3a5c19:a9b9:b:0:0|fa1b8ee49d1ed814:a0b0:w:0:0|4fa41c94f2b69bcc:b9b6:b:0:0|4b3948a274c1c0d8:b2c2:w:0:0|4af2c6f78c422978:b6b0:b:1:0|3401ef8b1d9da3c1:a2b0:w:1:0|ddcfd0c63fca9052:c7c2:b:1:0|39022f97d24ee107:b0c2:w:1:0|f889fa15b031b83b:g9e7:b:0:0|696dc0d9bd650c53:c4h4:w:0:0|c3310f3d3c817f2c:h7h5:b:0:0|685262e8d1a5e467:e3e4:w:0:0|5006cd3651ef626c:g6g5:b:0:0|96f047cc9a8ed841:g3g4:w:0:0|ef791bee8da131ac:g5g4:b:1:0|f76aefa528b04bb0:h4g4:w:1:0|17c6e7943013a192:h5g5:b:0:0|6963d46b4ce76f08:e4e5:w:0:0|6619b52260298251:f9e8:b:0:0|483bfd74eacdc6e9:e5e6:w:1:0|19e056f407f4df84:g7e6:b:1:0|9a2c5962e0a8a6a2:g2e3:w:0:0|30f594367e4e8415:h9h6:b:0:0|5e1458b2ba2448b2:g4e4:w:0:0|44b9bd13a2a7a316:e6c5:b:0:0|2a58719766cd6fb1:e4g4:w:0:0|0f6a7afe759d0939:c5b3:b:0:0|b47bc1d34d61011f:g4g1:w:0:0|c05f169da2a1c539:a7c6:b:0:0|50ab9753c893b9a2:g1d1:w:0:0|3827e2badc5da56d:h6h3:b:0:0|7a11e68ad0c552a8:d1d3:w:0:0|aaea16a7d636fd32:g5g3:b:0:0|f2fdebc4e26b3db8:e3f5:w:0:0|34905e53f8a00daf:c6a5:b:0:0|030a2656c2997d4f:f5g3:w:1:0|9e60dee9db26afa7:b3c1:b:0:1|dc56dad9d7be5862:d3d1:w:0:0|2cc5e864fb1e6587:a5b3:b:0:0|5907969df2fe6da1:d0e1:w:0:0|11d027e4cf17b506:h3g3:b:1:0|d78ce5fa824a3e1f:e0d0:w:0:0|6727a3a12c04bc75:e9f9:b:0:0|2631ac90715bc421:e1d2:w:0:0|822613169b6457f1:g3g0:b:1:0|f8612490bd2a3c97:d1f1:w:0:1|48ca62cb1364befd:f9e9:b:0:0|8285747d5df5249b:d0d1:w:0:0|002ec562559571b8:g0g3:b:0:0|c0b1074de00999cc:f1h1:w:0:0|701a41164e471ba6:e9f9:b:0:0|d143ff2c1284cd3b:i3i4:w:0:0|92d0f7150e8834d4:c1a0:b:0:0|3a24b2a7d2086d4c:f0e1:w:0:0|01948bea6bd677a2:a0b2:b:0:0|c10b49c5de4a9fd6:h1f1:w:0:1|71a00f9e70041dbc:f9e9:b:0:0|b13fcdb1c598f5c8:f1h1:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b2c0",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "b3d2",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 71,
+      "source_record_index": 70
+    },
+    {
+      "selection_key": "149a80d21c51b1623d850b1dfed5524119d8af2ee21b845b86e484bf5df1745e",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0",
+      "fen": "rnbakabr1/9/1c4nc1/p1p1p3p/6p2/P8/2P1P1P1P/1C2C1N2/9/RNBAKABR1 b - - 7 4",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b7b0",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 7,
+      "source_record_index": 6
+    },
+    {
+      "selection_key": "149b304d545d1feddea2ec0a5bd3560ff459c79ee2af0177cbc773f28dadc5d8",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2 g1h1 h9f8 c5e4 f1f4 h1h4 f8g6",
+      "fen": "4ka3/4a4/4b4/p5N1p/9/P3nC1rP/4n4/4B3R/4A3N/3A1KB2 b - - 13 45",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0|48619e76889d1d56:g1h1:b:0:0|2dcbebed14005356:h9f8:w:0:0|7ffad2895e311372:c5e4:b:0:0|5700efaa379d67e9:f1f4:w:0:0|61c11ac62d41c58e:h1h4:b:0:0|703d764d526ec3d6:f8g6:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "e3g2",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "h4f4",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "h4i4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 89,
+      "source_record_index": 88
+    },
+    {
+      "selection_key": "14d5290546042271e55ceae2b552e81da13dfa4d88836d61f32efe80d05521c1",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3 c5h5 i0e0 h5e5 i6i5 e1d2 e0h0 b6b7 a6a5 e5h5 c3b1 d6c4 c0c3 d0e1 h0b0 e4e5 c3c1 e1d0 c1c3 d0e1 c3c1 e1d0 c1c3 c4d6 b1d2 f1e1",
+      "fen": "2b1k4/4a4/1P1ab4/3NC1p2/p3P2Cp/6P2/P1c6/3n4B/4K4/1c1A5 b - - 1 39",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0|5181250ccb66e746:c5h5:w:0:0|2cbc4292ff31f0a7:i0e0:b:0:0|d617e0a17b9d8512:h5e5:w:0:0|1dd2f8fd82e2f377:i6i5:b:0:0|5cc4f7ccdfbd8b23:e1d2:w:0:0|61c199ac4ac67e09:e0h0:b:0:0|ce27384a97ab36b2:b6b7:w:0:0|46918b5a9ec2cbec:a6a5:b:0:0|bc3a29691a6ebe59:e5h5:w:0:0|381a11984095df00:c3b1:b:0:0|addbb78fccd34157:d6c4:w:0:0|a86b6f0a71843d96:c0c3:b:0:0|dda911f3786435b0:d0e1:w:0:0|e7eb92e03d699fcc:h0b0:b:0:0|994ea11f419d5156:e4e5:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|994ea11f419d5156:d0e1:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|794d79f1c43bc727:c4d6:w:0:0|410d61eb311ea15a:b1d2:b:1:1|570f7fa1a8860b0e:f1e1:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "d2f3",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 77,
+      "source_record_index": 76
+    },
+    {
+      "selection_key": "1574317744890b792ef1eb14618dc7d565c7e0f530d7bedeba87ee77bbbd35be",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4",
+      "fen": "4ka3/4a4/4b4/p7p/2n1r4/P3P4/2Rn2N1P/9/4A1C1N/2BA1KB2 b - - 1 33",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "c5a4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "c5e4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d3e1",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e5e4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "e5f5",
+          "capture": false,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 65,
+      "source_record_index": 64
+    },
+    {
+      "selection_key": "159fa4019daf0a546d82c47ac0d219980a7d59c5a837e4a83bd44f30ec268d74",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8 c9c1 f0e1 c1d1 g2i1 f4d3 d4f5 d3c1 f5g3 d1d5 e0f0 d5f5 g3f1 f5d5 e2c0 d8b7 b8c8 b7c5 g4g1 c5b3 f1g3 c1d3 c8c3 b3c5 d6e6 d5e5 e6e7 g9e7 e3e4 e5e6 i3i4 e6f6 g1f1 f6f3 g3h5 f3f5 h5i7 f5g5 e4e5 d3e5 i7h9 g5g1 c3i3 e5g4 i3i2 g4e3 c0e2",
+      "fen": "4ka1N1/4a4/4b4/p7p/2n6/P7P/4n4/4B3R/4ACr1N/3A1KB2 b - - 7 42",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0|28279478acc2e49d:c9c1:b:0:0|80d3d1ca7042bd05:f0e1:w:0:0|068a94ff500ab739:c1d1:b:0:0|a2252c87f68c2cd8:g2i1:w:0:0|5ceac1dc9d593441:f4d3:b:0:0|63b5e5fb501b3537:d4f5:w:0:0|3e31b69c96f2d9bf:d3c1:b:0:0|09abce99accba95f:f5g3:w:1:0|2a454fd5c6b24afe:d1d5:b:0:1|fd0b2e85cc520574:e0f0:w:0:0|e09562f4fbf4b085:d5f5:b:0:1|90fae3271308f7b0:g3f1:w:0:0|8d64af5624ae4241:f5d5:b:0:0|7653b0b59b72940d:e2c0:w:0:0|92bf6ead75b25c95:d8b7:b:0:0|1f305697899ddc65:b8c8:w:0:0|36cbfc5f077479e9:b7c5:b:0:0|07b814bd4b7cf8dd:g4g1:w:0:0|228a1fd4582c9e55:c5b3:b:0:0|52e59e07b0d0d960:f1g3:w:0:0|0f61cd60763935e8:c1d3:b:0:0|e1f5797181324adb:c8c3:w:0:0|c4c7721892622c53:b3c5:b:0:0|af46a90462efd2f4:d6e6:w:1:0|e6128972df5d8c11:d5e5:b:0:0|c3a493207c260362:e6e7:w:1:0|ed79e89e3911fe6c:g9e7:b:1:0|461a854bd4356527:e3e4:w:0:0|4de993ac6cb8d9f7:e5e6:b:0:0|ecb02d96307b0f6a:i3i4:w:0:0|2d12a1d4942d3dd0:e6f6:b:0:1|2388d15a020d472a:g1f1:w:0:0|82d6a6bad90554a6:f6f3:b:0:0|e5fd1672827ade2c:g3h5:w:0:0|da389730cfbda8de:f3f5:b:0:0|08baf54697e0c524:h5i7:w:0:0|8abaef5f1b0dcdc3:f5g5:b:0:0|f41fdca067f90359:e4e5:w:0:0|41e31de144fe4da6:d3e5:b:1:0|c1551900c680200d:i7h9:w:0:0|1abc7e26ce3d48f0:g5g1:b:0:0|beea152f6ec6102b:c3i3:w:0:0|306bbde7f25d3a0c:e5g4:b:0:0|9635de094f174731:i3i2:w:0:0|7cef50a5246b0b89:g4e3:b:0:0|87d84f469bb7ddc5:c0e2:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "c5a4",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g1f1",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "g1g0",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "g1i1",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 83,
+      "source_record_index": 82
+    },
+    {
+      "selection_key": "15b135763d9ca144c660bbb3f95de2e32ab939a2cfeff5055f38da39dd6d7cb1",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5 g7h5 a0b0 h5f4 c5c6 a9c9 c6d6 d7e8 b0b8",
+      "fen": "2r1kab2/1R1na4/4b4/p2Pp3p/9/P2N1nC2/4P1c1P/4B1N2/9/3AKAB2 b - - 7 19",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0|8456ed2f552f589b:g7h5:b:1:0|62fe72c4b40bdc96:a0b0:w:0:0|d00b193c4f24d074:h5f4:b:0:0|0392339c425f4bde:c5c6:w:0:0|9de382e94ce52325:a9c9:b:0:0|a69353c1a2143ca2:c6d6:w:0:0|1a3c14f90abd59c6:d7e8:b:0:0|3c281fa07bc280e5:b0b8:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "f4e2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "f4g2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g3g0",
+          "capture": true,
+          "check": true
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 37,
+      "source_record_index": 36
+    },
+    {
+      "selection_key": "16d5e05ce059ef57672d8a578f1a67511d3b0a995400befc659f0d31f9de6621",
+      "position": "position startpos moves c3c4 b7c7 h2e2",
+      "fen": "rnbakabnr/9/2c4c1/p1p1p1p1p/9/2P6/P3P1P1P/1C2C4/9/RNBAKABNR b - - 3 2",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "c7c4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 5,
+      "source_game_index": 4,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 3,
+      "source_record_index": 2
+    },
+    {
+      "selection_key": "1a385615d08fcf9d455adc2a51a5433856f0055facf54186c7caabbfac809d13",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5",
+      "fen": "r3kab2/3na4/1c2b1n2/p3p3p/2P3pr1/PC1N2P2/4P2cP/3C2N2/9/R1BAKABR1 b - - 0 11",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "e7c5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g5g4",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 21,
+      "source_record_index": 20
+    },
+    {
+      "selection_key": "1b625fe2b525fd6bc6ec125fd5f148c9a1bb0af09c976ff92d39295636513846",
+      "position": "position startpos moves c3c4 a6a5 b0c2 h9g7 g3g4 h7i7 h0g2 i9h9 g2f4 h9h5 f4g6 i7i8 h2g2 c6c5 c4c5 h5c5 c2d4 c5d5 d4c2 b9c7 c2b4",
+      "fen": "r1bakab2/8c/1cn3n2/4p1N1p/p2r5/1N4P2/P3P3P/1C4C2/9/R1BAKAB1R b - - 5 11",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|5cec910dc082d4a0:a6a5:b:0:0|77ea8ef17a580233:b0c2:w:0:0|a9ab336f8b721a87:h9g7:b:0:0|6f5db9954013a0aa:g3g4:w:0:0|4d7594e81171b464:h7i7:b:0:0|1dd52a47b11e89ed:h0g2:w:0:0|9cb1fb3b7fabcac6:i9h9:b:0:0|baed72e94d294919:g2f4:w:0:0|253f292548e2ae3a:h9h5:b:0:0|8625566e52fdcd3c:f4g6:w:1:0|87e3d9f7046b0463:i7i8:b:0:0|0bc6f67fa5b375f9:h2g2:w:0:0|c0966d86ed3eb9d1:c6c5:b:0:0|30d9f9e0a7bb8cf2:c4c5:w:1:0|f40af36be3954c19:h5c5:b:1:0|8603dd241506ea62:c2d4:w:0:0|43d94ac1ad0f24ef:c5d5:b:0:0|31d0648e5b9c8294:d4c2:w:0:0|29abfe01d5113cc8:b9c7:b:0:0|ccd344ee18722d9b:c2b4:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b7b2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "d5d0",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "i8i3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 7,
+      "source_game_index": 6,
+      "source_start": "pawn_opening_red_to_move",
+      "source_ply": 20,
+      "source_record_index": 19
+    },
+    {
+      "selection_key": "1c237b82a39e7f303a1deb61dca75692df9b884601168f60ca295c946b85f10c",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0",
+      "fen": "2bak4/7c1/3ab1n2/p1PNp1p1p/1nC6/4PNP2/P8/4C3B/4A4/2BA1K2c b - - 5 22",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b5a3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "h8f8",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "h8h0",
+          "capture": false,
+          "check": true
+        },
+        {
+          "move": "i0d0",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 1,
+      "source_game_index": 0,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 43,
+      "source_record_index": 42
+    },
+    {
+      "selection_key": "1d7f8c060a6a4e6afc88887f8337c0b2332317579806776000f2dc7617cb74ed",
+      "position": "position startpos moves h2e2 h9g7 c3c4 g6g5 b0c2 i9h9 h0g2 c9e7 b2a2 h7i7 i0i1 h9h4 e3e4 d9e8 a0b0 g7f5 i1f1 f5g3 b0b5 h4e4 f1f3 g5g4 c2e3 e4f4 f3f4 g4f4 e3d5",
+      "fen": "rn2kab2/4a4/1c2b3c/p1p1p3p/1R1N5/2P2p3/P5n1P/C3C1N2/9/2BAKAB2 b - - 1 14",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|1a32c5e91798c8a7:c3c4:w:0:0|22666a3797d24eac:g6g5:b:0:0|096075cb2d08983f:b0c2:w:0:0|8804a4b7e3bddb14:i9h9:b:0:0|d8a41a1843d2e69d:h0g2:w:0:0|8bbca187e7b43e38:c9e7:b:0:0|08612c709c0825c3:b2a2:w:0:0|2a49010dcd6a310d:h7i7:b:0:0|ab36f5935fd66571:i0i1:w:0:0|4c8dfd4506da6631:h9h4:b:0:0|e7ee9090ebfefd7a:e3e4:w:0:0|4939aa9adea497b9:d9e8:b:0:0|af9135713f8013b4:a0b0:w:0:0|1cfeecbef7afaba2:g7f5:b:0:0|40f572a515d9ddcf:i1f1:w:0:0|6120bb76db55f77b:f5g3:b:1:0|838df6dc17f9e5c7:b0b5:w:0:0|241af22168f7a51e:h4e4:b:1:0|a022f8d7e266db68:f1f3:w:0:0|5dd600ceb15b26f9:g5g4:b:0:0|4897f7c5bed7417e:c2e3:w:0:0|aa5c95753a1d947b:e4f4:b:0:0|e228abadf2a6f15b:f3f4:w:1:0|8bc68162651a283d:g4f4:b:1:0|7e98f17acf044fd2:e3d5:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "g3e2",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "i7i3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 3,
+      "source_game_index": 2,
+      "source_start": "central_cannon_red_to_move",
+      "source_ply": 26,
+      "source_record_index": 25
+    },
+    {
+      "selection_key": "1ebffc2e2f6aed5576dc567f7c90a721d71b75e807f7a6e4ebefdcadc9a4086e",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4 b3b1 h5e5 f8e8 e5e6 c6d4 e6d6 e8e4 e3e4 c7e7 f0e1 f2b2 b0d1 b2b4 a2b2 b1d1 b2b4 d1d0 e0d0 d4c2 d0e0 c2b4 d6g6 b4c2 c4e2 e7h7 g6a6 i6i5 e4e5 f9e8 a6c6 c2d4 c6h6 h7i7 h6h9 c9e7 h9h3 d4c6 e5f5 c6d4 f5f6 i7i8 e1f2 i8i6 h3d3 d4b5 g4g5 g9i7 g5h5",
+      "fen": "3ak4/4a4/4b3b/5P2c/1n5Pp/9/P2R4P/4BA3/9/4K1B2 b - - 22 38",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0|37a547f2c2ebdd2b:b3b1:b:1:0|bcd03be31f3d3db0:h5e5:w:0:1|d83361c378dea0ff:f8e8:b:0:0|be3c9d38ba4e24c5:e5e6:w:0:0|0303c4ea8b3453f9:c6d4:b:0:0|6a12fe72baa15982:e6d6:w:0:1|e1f4f7adb97fc94b:e8e4:b:1:0|7f604ee485252ab1:e3e4:w:1:0|635e00b38170dd1b:c7e7:b:0:1|cbaa45015df08483:f0e1:w:0:0|45858a166d71e234:f2b2:b:0:0|99b1630fc8b090ea:b0d1:w:0:0|8daaa5f0fcd84aff:b2b4:b:0:0|bfdfbf902c9bce75:a2b2:w:0:0|9d33a74d1af30552:b1d1:b:1:0|a598236b8c9a1f72:b2b4:w:1:0|70fc65a17cd15e1d:d1d0:b:1:1|4a7b8592f2e0180a:e0d0:w:1:0|e9a661d57e5bc57f:d4c2:b:0:1|2ffaa3cb33064e66:d0e0:w:0:0|eb34202a4956c0b9:c2b4:b:1:0|cc8df5e4ecbe3b2c:d6g6:w:1:0|1e04d4e60d3b6638:b4c2:b:0:0|106ea9ba8e4e145d:c4e2:w:0:0|cf952347a384edbd:e7h7:b:0:0|28a9c5f8e4c3d4e2:g6a6:w:1:0|e36cdda41dbca287:i6i5:b:0:0|9dc9ee5b61486c1d:e4e5:w:0:0|92b38f124d868144:f9e8:b:0:0|05619ec1d119c2a6:a6c6:w:0:0|a6bc7a865da21fd3:c2d4:b:0:0|375a9f4956992adb:c6h6:w:0:0|1572b23407fb3e15:h7i7:b:0:0|eb4cf6a0ee740f72:h6h9:w:0:0|b8544d3f4a12d7d7:c9e7:b:0:0|99e3e7d0841b07af:h9h3:w:0:0|24dcbe02b5617093:d4c6:b:0:0|4afa9e85cccb7ca2:e5f5:w:0:0|f7c5c757fdb10b9e:c6d4:b:0:0|c2fe2a280b6d2837:f5f6:w:0:0|c338a5b15dfbe168:i7i8:b:0:0|eb137cff9e86b77a:e1f2:w:0:0|76a0608bb4dd0b7e:i8i6:b:0:0|f2611b50def271f9:h3d3:w:0:0|4c9b8802c542dfed:d4b5:b:0:0|a7856ae33f71d7ab:g4g5:w:0:0|3731d6e1df88f2a9:g9i7:b:0:0|63fecc144836692b:g5h5:w:0:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "b5a3",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "i6i3",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 6,
+      "source_game_index": 5,
+      "source_start": "pawn_opening_black_to_move",
+      "source_ply": 75,
+      "source_record_index": 74
+    },
+    {
+      "selection_key": "207301772eb290f04ee6e7df5d86ad20ae80db513478c92a97655d85a2b58ef8",
+      "position": "position startpos moves h2e2 h9g7 a3a4 g6g5 h0g2 i9h9 i0h0 h7h3 c3c4 d9e8 b0c2 c9e7 c2d4 b9d8 e2d2 h9h4 b2b4 c6c5 g3g4 h4h5 c4c5 g5g4 b4g4 b7d7 d2d7 e8d7 c0e2 h3g3 h0h5",
+      "fen": "r3kab2/3n5/3ab1n2/p3p3p/2P4R1/P2N2C2/4P1c1P/4B1N2/9/R2AKAB2 b - - 0 15",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|956e380a1b52796d:a3a4:w:0:0|ad3a97d49b18ff66:g6g5:b:0:0|fd9a297b3b77c2ef:h0g2:w:0:0|7cfef807f5c281c4:i9h9:b:0:0|dbce5bac4f540239:i0h0:w:0:0|da9d3eeb59b4f690:h7h3:b:0:0|0fcc11b3fbcebf7f:c3c4:w:0:0|a11b2bb9ce94d5bc:d9e8:b:0:0|8a1d3445744e032f:b0c2:w:0:0|d9058fdad028db8a:c9e7:b:0:0|ab0ca19526bb7df1:c2d4:w:0:0|989c11007394295b:b9d8:b:0:0|d2bae8885598cc34:e2d2:w:0:0|3501e05e0c94cf74:h9h4:b:0:0|d12c7a52d75501a0:b2b4:w:0:0|1a7ce1ab9fd8cd88:c6c5:b:0:0|dc8a6b5154b977a5:g3g4:w:0:0|1f64552e5c1ab1c3:h4h5:b:0:0|ef2bc148169f84e0:c4c5:w:1:0|96a29d6a01b06d0d:g5g4:b:1:0|bb3af96b171fedf3:b4g4:w:1:0|73a8db14af8ccfd7:b7d7:b:0:0|cfa617151fb8ea8e:d2d7:w:1:0|b9b16b967aa7eb90:e8d7:b:1:0|42867475c57b3ddc:c0e2:w:0:0|62594baf184bddb7:h3g3:b:0:0|559ca23cda7290e5:h0h5:w:1:0",
+      "side_to_move": "black",
+      "tactical_moves": [
+        {
+          "move": "e7c5",
+          "capture": true,
+          "check": false
+        },
+        {
+          "move": "g3g0",
+          "capture": true,
+          "check": true
+        },
+        {
+          "move": "g7h5",
+          "capture": true,
+          "check": false
+        }
+      ],
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_report_sha256": "e254c5fbd9deb01835256f2cb686dde92caa3b74cd8b400d79b9cb44921fd35f",
+      "source_game": 2,
+      "source_game_index": 1,
+      "source_start": "central_cannon_black_to_move",
+      "source_ply": 29,
+      "source_record_index": 28
+    }
+  ]
+}

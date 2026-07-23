@@ -1,0 +1,24 @@
+{
+  "positions": [
+    {
+      "name": "central_cannon_black_to_move",
+      "position": "position startpos moves h2e2",
+      "tags": ["natural", "central_cannon", "black_to_move"]
+    },
+    {
+      "name": "central_cannon_red_to_move",
+      "position": "position startpos moves h2e2 h9g7",
+      "tags": ["natural", "central_cannon", "red_to_move"]
+    },
+    {
+      "name": "pawn_opening_black_to_move",
+      "position": "position startpos moves c3c4",
+      "tags": ["natural", "pawn_opening", "black_to_move"]
+    },
+    {
+      "name": "pawn_opening_red_to_move",
+      "position": "position startpos moves c3c4 a6a5",
+      "tags": ["natural", "pawn_opening", "red_to_move"]
+    }
+  ]
+}

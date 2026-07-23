@@ -1,0 +1,33 @@
+{
+  "store": "database/proofs.sqlite",
+  "defaults": {
+    "target": "red",
+    "initial_ply": 0,
+    "extra_ply": 1,
+    "cycles": 1,
+    "frontier_limit": 10,
+    "frontier_min_remaining_ply": null,
+    "frontier_max_remaining_ply": null,
+    "frontier_max_proof": null,
+    "frontier_max_disproof": null,
+    "node_limit": 100000,
+    "searcher": "bounded",
+    "reuse_store": false,
+    "proof_threshold": 1000000000000,
+    "disproof_threshold": 1000000000000,
+    "time_limit_seconds": null,
+    "node_budget": null,
+    "reset_running_max_age_seconds": null,
+    "persistent_uci_ordering": false,
+    "uci_options": []
+  },
+  "jobs": [
+    {
+      "name": "red_win_in_one",
+      "enabled": true,
+      "resume_artifact": false,
+      "fen": "4k4/R6N1/9/5N3/4P4/9/9/9/9/3RK4 w - - 0 1",
+      "artifact": "artifacts/red_win_in_one.json"
+    }
+  ]
+}

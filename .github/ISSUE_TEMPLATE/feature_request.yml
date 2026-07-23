@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a focused improvement to XQ Proof Lab.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Validation or evidence boundary
+      description: Explain tests and whether the request affects proof, diagnostics, timing, or reports.

@@ -1,0 +1,66 @@
+{
+  "store": "database/pikafish_proofs.sqlite",
+  "defaults": {
+    "initial_ply": 1,
+    "extra_ply": 1,
+    "cycles": 1,
+    "frontier_limit": 10,
+    "node_limit": 100000,
+    "searcher": "bounded",
+    "reuse_store": true,
+    "uci_engine": "cmd.exe /d /s /c scripts\\run_pikafish_baseline.cmd",
+    "uci_depth": 2,
+    "persistent_uci_ordering": true,
+    "uci_options": ["Threads=16", "Hash=1024"]
+  },
+  "jobs": [
+    {
+      "name": "red_tactical_mate1",
+      "target": "red",
+      "fen": "4k4/R6N1/9/5N3/4P4/9/9/9/9/3RK4 w - - 0 1",
+      "artifact": "artifacts/pikafish_proofs_red_tactical_mate1.json"
+    },
+    {
+      "name": "black_tactical_mate1",
+      "target": "black",
+      "fen": "3rk4/9/9/9/4p4/5n3/9/r6n1/9/4K4 b - - 0 1",
+      "artifact": "artifacts/pikafish_proofs_black_tactical_mate1.json"
+    },
+    {
+      "name": "opening_black_mate1_ply22",
+      "target": "black",
+      "initial_ply": 2,
+      "position": "position startpos moves b2b9 a9b9 h2h9 i9h9 a3a4 b7e7 b0c2 h7h5 c3c4 b9b2 c2d4 e7e3 d4c6 h5h4 g3g4 h4c4 c6d4 c4g4 e0e1 h9h1 e1e0",
+      "source_match_report": "artifacts/pikafish_official_2026-01-02_opening_500ms.json",
+      "source_pikafish_line": "score mate 1 pv g4e4",
+      "artifact": "artifacts/pikafish_proofs_opening_black_mate1_ply22.json"
+    },
+    {
+      "name": "opening_black_mate4_ply16",
+      "target": "black",
+      "initial_ply": 7,
+      "position": "position startpos moves b2b9 a9b9 h2h9 i9h9 a3a4 b7e7 b0c2 h7h5 c3c4 b9b2 c2d4 e7e3 d4c6 h5h4 g3g4",
+      "source_match_report": "artifacts/pikafish_official_2026-01-02_opening_500ms.json",
+      "source_pikafish_line": "score mate 4 pv h4c4 c6d4 c4g4 e0e1 h9h1 e1e0 g4e4",
+      "artifact": "artifacts/candidate_black_mate4_400ms_dfpn_10s_persistent_full_baseline.json"
+    },
+    {
+      "name": "opening_red_mate1_ply17",
+      "target": "red",
+      "initial_ply": 2,
+      "position": "position startpos moves g3g4 b7b0 a0b0 h7h0 i0h0 a6a5 h2e2 b9c7 h0h8 c6c5 b2d2 c7d5 e2e6 d5e3 b0b8 e3g4",
+      "source_match_report": "artifacts/pikafish_official_2026-01-02_opening_500ms.json",
+      "source_pikafish_line": "score mate 1 pv b8e8",
+      "artifact": "artifacts/pikafish_proofs_opening_red_mate1_ply17.json"
+    },
+    {
+      "name": "opening_red_mate1_orderingfix_ply17",
+      "target": "red",
+      "initial_ply": 1,
+      "position": "position startpos moves c3c4 a6a5 g3g4 a5a4 a3a4 a9a4 a0a4 b7a7 e0e1 a7a5 h2e2 a5a6 b2b5 a6a5 e2e6 a5a6",
+      "source_match_report": "artifacts/pikafish_official_2026-01-02_opening_clock_phase_orderingfix.json",
+      "source_pikafish_line": "score mate 1 pv b5e5",
+      "artifact": "artifacts/pikafish_proofs_opening_red_mate1_orderingfix.json"
+    }
+  ]
+}
