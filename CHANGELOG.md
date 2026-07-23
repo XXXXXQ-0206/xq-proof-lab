@@ -11,6 +11,18 @@ follow [Semantic Versioning](https://semver.org/).
 - Separate all future qualification timing fields into setup, search, and
   verification measurements before research resumes.
 
+## [1.0.2] - 2026-07-23
+
+### Fixed
+
+- Aligned the published package metadata with the current release version.
+
+## [1.0.1] - 2026-07-23
+
+### Fixed
+
+- Normalized Windows script line endings so a fresh clone remains clean.
+
 ## [1.0.0] - 2026-07-23
 
 ### Added

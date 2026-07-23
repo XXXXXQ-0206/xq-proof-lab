@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xq-proof-lab"
-version = "1.0.0"
+version = "1.0.2"
 description = "A local Xiangqi rules, proof, certificate, store, and UCI analysis toolkit"
 readme = "README.md"
 requires-python = ">=3.10"
