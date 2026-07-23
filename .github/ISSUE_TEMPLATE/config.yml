@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/XXXXXQ-0206/xq-proof-lab/security/advisories/new
+    about: Use private vulnerability reporting. Do not disclose security issues publicly.

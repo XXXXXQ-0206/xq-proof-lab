@@ -1,0 +1,68 @@
+{
+  "report_type": "proof_qualification_corpus",
+  "report_schema_version": 1,
+  "split": "development",
+  "config": {
+    "split": "development",
+    "selection_rule_version": "locally_verified_natural_mate_candidate_v1",
+    "candidate_report": {
+      "path": "artifacts\\proof_qualification_development_mate_candidates_20260713.json",
+      "sha256": "0261d842e30d8b76d5715320d165975903d0b1c8bbb45f445cd9161f6dc0d9f1"
+    },
+    "proof_store": {
+      "path": "database\\proof_qualification_development.sqlite",
+      "sha256": "df5286ad6a0bc4c6487ccb8aba1e35b4368300f78c78b1dd7d2c825172a3a22e"
+    },
+    "verification_time_limit_seconds": 10.0,
+    "source_reports": [
+      "artifacts\\pikafish_balanced_shorttc_20260711.json"
+    ]
+  },
+  "corpus_digest": "50d8fa4e49b41011c94ef7d8c9ac76a1917b9db873d14567e89643c271d6dce6",
+  "summary": {
+    "candidates": 6,
+    "verified_positions": 2,
+    "excluded": {
+      "proof_artifact_missing": 3,
+      "proof_verification_time_limit": 1
+    }
+  },
+  "positions": [
+    {
+      "selection_key": "3285ea95d2cf4d2927eb954b0cc13dfcb9dd626f7e5c76aeac1e5d0ca112b6ef",
+      "position": "position startpos moves c3c4 b7c7 h2e2 h9g7 g3g4 c6c5 c0a2 c5c4 h0g2 b9a7 a2c4 a9b9 a0a2 i9i8 g2f4 a7c6 f4e6 g7e6 e2e6 b9b3 i0h0 h7f7 h0h5 f7f2 b2b1 i8f8 e6e4 b3b1 h5e5 f8e8 e5e6 c6d4 e6d6 e8e4 e3e4 c7e7 f0e1 f2b2 b0d1 b2b4 a2b2 b1d1 b2b4 d1d0 e0d0 d4c2 d0e0 c2b4 d6g6 b4c2 c4e2 e7h7 g6a6 i6i5 e4e5 f9e8 a6c6 c2d4 c6h6 h7i7 h6h9 c9e7 h9h3 d4c6 e5f5 c6d4 f5f6 i7i8 e1f2 i8i6 h3d3 d4b5 g4g5 g9i7 g5h5 e8d7 h5i5 i6h6 d3h3 e7g9 a3a4 d9e8 i5i6 h6h7 h3h7 i7g5 h7g7 g9i7 i6i7 b5a3 i7i8 e9f9 g7g9 f9f8 i8h8 e8d9 e2g4 a3b1",
+      "fen": "3a2R2/5k1P1/3a5/5P3/6b2/P5B2/8P/5A3/1n7/4K1B2 w - - 9 50",
+      "history_signature": "010b0d456b916011:-:-:0:0|d45a221dc9eb29fe:c3c4:w:0:0|bf368ac7635bf42f:b7c7:b:0:0|af1fd0ad4c020dc2:h2e2:w:0:0|715e6d33bd281576:h9g7:b:0:0|b7a8e7c97649af5b:g3g4:w:0:0|7cf87c303ec46373:c6c5:b:0:0|f7cdb3b78d5daa13:c0a2:w:0:0|038dd4e90b681839:c5c4:b:1:0|532d6a46ab0725b0:h0g2:w:0:0|ca42f50e54fab352:b9a7:b:0:0|cfcd1d0d59fe260d:a2c4:w:1:0|b4439e02d5d0b4e1:a9b9:b:0:0|bb4084440648cc18:a0a2:w:0:0|dbc42fe9bc99e96f:i9i8:b:0:0|fd98a63b8e1b6ab0:g2f4:w:0:0|89bc717561dbae96:a7c6:b:0:0|7e47e9f861d81f5f:f4e6:w:1:0|aa9960a007a9c748:g7e6:b:1:0|c131b77625d0e62a:e2e6:w:1:0|5b985fa74ce45fed:b9b3:b:0:0|fca8fc0cf672dc10:i0h0:w:0:0|d5be1ac5e9c0c370:h7f7:b:0:0|a4759d1372dddd9e:h0h5:w:0:0|2cb10adaa7035a1d:f7f2:b:0:0|2a16e727407e67a2:b2b1:w:0:0|83742c7a04fe16ac:i8f8:b:0:0|1ef42a32e0abf414:e6e4:w:0:0|37a547f2c2ebdd2b:b3b1:b:1:0|bcd03be31f3d3db0:h5e5:w:0:1|d83361c378dea0ff:f8e8:b:0:0|be3c9d38ba4e24c5:e5e6:w:0:0|0303c4ea8b3453f9:c6d4:b:0:0|6a12fe72baa15982:e6d6:w:0:1|e1f4f7adb97fc94b:e8e4:b:1:0|7f604ee485252ab1:e3e4:w:1:0|635e00b38170dd1b:c7e7:b:0:1|cbaa45015df08483:f0e1:w:0:0|45858a166d71e234:f2b2:b:0:0|99b1630fc8b090ea:b0d1:w:0:0|8daaa5f0fcd84aff:b2b4:b:0:0|bfdfbf902c9bce75:a2b2:w:0:0|9d33a74d1af30552:b1d1:b:1:0|a598236b8c9a1f72:b2b4:w:1:0|70fc65a17cd15e1d:d1d0:b:1:1|4a7b8592f2e0180a:e0d0:w:1:0|e9a661d57e5bc57f:d4c2:b:0:1|2ffaa3cb33064e66:d0e0:w:0:0|eb34202a4956c0b9:c2b4:b:1:0|cc8df5e4ecbe3b2c:d6g6:w:1:0|1e04d4e60d3b6638:b4c2:b:0:0|106ea9ba8e4e145d:c4e2:w:0:0|cf952347a384edbd:e7h7:b:0:0|28a9c5f8e4c3d4e2:g6a6:w:1:0|e36cdda41dbca287:i6i5:b:0:0|9dc9ee5b61486c1d:e4e5:w:0:0|92b38f124d868144:f9e8:b:0:0|05619ec1d119c2a6:a6c6:w:0:0|a6bc7a865da21fd3:c2d4:b:0:0|375a9f4956992adb:c6h6:w:0:0|1572b23407fb3e15:h7i7:b:0:0|eb4cf6a0ee740f72:h6h9:w:0:0|b8544d3f4a12d7d7:c9e7:b:0:0|99e3e7d0841b07af:h9h3:w:0:0|24dcbe02b5617093:d4c6:b:0:0|4afa9e85cccb7ca2:e5f5:w:0:0|f7c5c757fdb10b9e:c6d4:b:0:0|c2fe2a280b6d2837:f5f6:w:0:0|c338a5b15dfbe168:i7i8:b:0:0|eb137cff9e86b77a:e1f2:w:0:0|76a0608bb4dd0b7e:i8i6:b:0:0|f2611b50def271f9:h3d3:w:0:0|4c9b8802c542dfed:d4b5:b:0:0|a7856ae33f71d7ab:g4g5:w:0:0|3731d6e1df88f2a9:g9i7:b:0:0|63fecc144836692b:g5h5:w:0:0|df518b2ce09f0c4f:e8d7:b:0:0|25f7d65eacd58fd3:h5i5:w:1:0|8a85f99066990185:i6h6:b:0:0|0e44824b0cb67b02:d3h3:w:0:0|cfcf57c96ec9223e:e7g9:b:0:0|95c28572c079da1b:a3a4:w:0:0|3b15bf78f523b0d8:d9e8:b:0:0|936497789701a54f:i5i6:w:0:0|39cc6b4324866889:h6h7:b:0:0|8dc6a0782d9bd8df:h3h7:w:1:0|2eaaf7f2b60a2f68:i7g5:b:0:0|e84b6eaf2e4136f8:h7g7:w:0:0|78ffd2adceb813fa:g9i7:b:0:0|287dece114f62844:i6i7:w:1:0|898ffc7f31f783bf:b5a3:b:0:0|4e97affb0171ad51:i7i8:w:0:0|fe3ce9a0af3f2f3b:e9f9:b:0:0|4f4940d3f6cb9736:g7g9:w:0:1|ceed6d270ba22ef1:f9f8:b:0:0|e5ec194fdd2e6521:i8h8:w:0:0|4b3b2345e8740fe2:e8d9:b:0:0|729e9df8c02decde:e2g4:w:0:0|6c181cf88374de1c:a3b1:b:0:0",
+      "side_to_move": "red",
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_game": 6,
+      "source_ply": 98,
+      "offline_candidate_move": "h8g8",
+      "local_proof": {
+        "artifact_sha256": "08da5c5cfb742d85d67a10193b0df28654ee41b97bc9db1d9d5ec7c4ee1b3296",
+        "max_ply": 1,
+        "proven_root_moves": [
+          "h8g8"
+        ]
+      }
+    },
+    {
+      "selection_key": "36325eaee9642c837bdb5835e4e2dfe36f06f33a7dfb24bcc873988f6db19cec",
+      "position": "position startpos moves h2e2 h9g7 h0g2 i9h9 i0h0 b9c7 e3e4 h7h8 b0c2 h8e8 h0h9 g7h9 c2e3 c6c5 c3c4 c7d5 c4c5 d5c3 b2c2 a9b9 a0b0 b7b3 f0e1 g9e7 c5c6 b9b5 e3c4 h9g7 c4d6 e8f8 g3g4 f9e8 b0b1 b3i3 b1b5 i3i0 g0i2 c3b5 c2c5 e8d7 g2f4 f8h8 e0f0 d9e8 f4e6 h8h0 f0f1 g7e6 e2e6 h0c0 c6b6 b5c3 c5h5 i0e0 h5e5 i6i5 e1d2 e0h0 b6b7 a6a5 e5h5 c3b1 d6c4 c0c3 d0e1 h0b0 e4e5 c3c1 e1d0 c1c3 d0e1 c3c1 e1d0 c1c3 c4d6 b1d2 f1e1 d2f3 e1f1 b0b4 f1f0 c3c0 d0e1 f3e5 g4g5 e5f3 g5g6 f3d4 e6e5 d4c2 e5i5",
+      "fen": "2b1k4/4a4/1P1ab4/3N2P2/p6CC/1c7/P8/2n5B/4A4/2c2K3 b - - 0 46",
+      "history_signature": "010b0d456b916011:-:-:0:0|1122572f44c899fc:h2e2:w:0:0|cf63eab1b5e28148:h9g7:b:0:0|9fc3541e158dbcc1:h0g2:w:0:0|1ea78562db38ffea:i9h9:b:0:0|b99726c961ae7c17:i0h0:w:0:0|a1ecbc46ef23c24b:b9c7:b:0:0|0a8fd19302075900:e3e4:w:0:0|d3c6b2cdd6df146b:h7h8:b:0:0|f8c0ad316c05c2f8:b0c2:w:0:0|d09f8947a56bde5d:h8e8:b:0:0|5587fa07e94cdf77:h0h9:w:1:0|59b3186f6d41a29a:g7h9:b:1:0|4cf2ef6462cdc51d:c2e3:w:0:0|87a2749d2a400935:c6c5:b:0:0|52f35bc5883a40da:c3c4:w:0:0|30359f3b446026be:c7d5:b:0:0|c07a0b5d0ee5139d:c4c5:w:1:0|6f1d7ec54a66b829:d5c3:b:0:0|6b802af3cc11e33d:b2c2:w:0:0|100ea9fc403f71d1:a9b9:b:0:0|f6a63617a11bf5dc:a0b0:w:0:0|7d060895557a6342:b7b3:b:0:0|d5f24d2789fa3ada:f0e1:w:0:0|147998a5eb8563e6:g9e7:b:0:0|c7e0b205e6fef84c:c5c6:w:0:0|e6b86f1f30aa2e75:b9b5:b:0:0|40009fb8046e7488:e3c4:w:0:0|9e412226f5446c3c:h9g7:b:0:0|0b8084317902f26b:c4d6:w:0:0|46b15d921b48df3d:e8f8:b:0:0|8047d768d0296510:g3g4:w:0:0|8f3db621fce78849:f9e8:b:0:0|bc9ddc8c13678c6e:b0b1:w:0:0|4b5e9df3bd0365a2:b3i3:b:1:0|6c243278e83dd232:b1b5:w:1:0|ea8da0aa0dfa60d1:i3i0:b:0:1|3581f1e451c4f5d2:g0i2:w:0:0|ea76bc73a6d0f5f7:c3b5:b:1:0|2fa41e44ba91ae14:c2c5:w:0:0|930b597c1238cb70:e8d7:b:0:0|b557d0ae20ba48af:g2f4:w:0:0|6bbe401edffa5b59:f8h8:b:0:0|bcf0214ed51a14d3:e0f0:w:0:0|12271b44e0407e10:d9e8:b:0:0|e5dc83c9e043cfd9:f4e6:w:1:0|5d1ad032ef2c12e7:h8h0:b:0:1|85713c51fd8d9683:f0f1:w:0:0|51afb5099bfc4e94:g7e6:b:1:0|3a0762dfb9856ff6:e2e6:w:1:0|5dd43452b9e53f49:h0c0:b:1:0|4f643dd2c2de5539:c6b6:w:0:0|743094bdfe7dad59:b5c3:b:0:0|5181250ccb66e746:c5h5:w:0:0|2cbc4292ff31f0a7:i0e0:b:0:0|d617e0a17b9d8512:h5e5:w:0:0|1dd2f8fd82e2f377:i6i5:b:0:0|5cc4f7ccdfbd8b23:e1d2:w:0:0|61c199ac4ac67e09:e0h0:b:0:0|ce27384a97ab36b2:b6b7:w:0:0|46918b5a9ec2cbec:a6a5:b:0:0|bc3a29691a6ebe59:e5h5:w:0:0|381a11984095df00:c3b1:b:0:0|addbb78fccd34157:d6c4:w:0:0|a86b6f0a71843d96:c0c3:b:0:0|dda911f3786435b0:d0e1:w:0:0|e7eb92e03d699fcc:h0b0:b:0:0|994ea11f419d5156:e4e5:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|994ea11f419d5156:d0e1:w:0:0|002cc0d66a48a676:c3c1:b:0:1|75eebe2f63a8ae50:e1d0:w:0:0|ec8cdfe6487d5970:c1c3:b:0:0|794d79f1c43bc727:c4d6:w:0:0|410d61eb311ea15a:b1d2:b:1:1|570f7fa1a8860b0e:f1e1:w:0:0|cd6341a43f96db0d:d2f3:b:0:1|db615feea60e7159:e1f1:w:0:0|bb4a94b0f6316f31:b0b4:b:0:0|632178d3e490eb55:f1f0:w:0:0|6691a05659c79794:c3c0:b:0:1|1353deaf50279fb2:d0e1:w:0:0|48489f5652dc29c7:f3e5:b:1:0|a3567db7a8ef2181:g4g5:w:0:0|2aefe28f7d73d6d9:e5f3:b:0:0|eeebb9035c2ed359:g5g6:w:1:0|4b234c9ba5956f7d:f3d4:b:0:0|115ae69d1b51f841:e6e5:w:0:0|b28702da97ea2534:d4c2:b:0:0|b93a0dc41a6b6e46:e5i5:w:1:0",
+      "side_to_move": "black",
+      "source_report": "artifacts\\pikafish_balanced_shorttc_20260711.json",
+      "source_game": 1,
+      "source_ply": 91,
+      "offline_candidate_move": "c2d0",
+      "local_proof": {
+        "artifact_sha256": "ac0e62fad1517f86ae2e2d15aca6a4c880b7d75100ce52d22b21e751de4ea6e3",
+        "max_ply": 1,
+        "proven_root_moves": [
+          "c2d0"
+        ]
+      }
+    }
+  ]
+}

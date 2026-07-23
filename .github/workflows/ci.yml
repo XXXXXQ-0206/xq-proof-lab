@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+      - name: Install package
+        run: python -m pip install --no-deps .
+      - name: Compile source
+        run: python -m compileall -q src tools tests
+      - name: Run regression suite
+        env:
+          PYTHONPATH: ${{ github.workspace }}\src
+        run: python -m unittest discover -s tests -v
+      - name: Run perft smoke
+        env:
+          PYTHONPATH: ${{ github.workspace }}\src
+        run: |
+          $nodes = python .\tools\perft.py --depth 1
+          if ($nodes.Trim() -ne "44") { throw "Unexpected perft result: $nodes" }

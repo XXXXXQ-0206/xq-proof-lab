@@ -1,0 +1,56 @@
+# Python caches, virtual environments, coverage, and build products.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Editor, operating-system, and local agent state.
+.vscode/
+.idea/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials. Keep a deliberately redacted example only.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.secrets
+*.token
+*.tokens
+
+# Local outputs and diagnostics. Never remove them automatically.
+logs/
+*.log
+artifacts/
+*.prof
+database/*.db
+database/*.db-*
+database/*.sqlite
+database/*.sqlite-*
+database/*.sqlite3
+database/*.sqlite3-*
+tmp/
+
+# Optional third-party engines and neural-network weights are never vendored.
+pikafish.nnue
+external/pikafish/
+external/pikafish-baseline/
+external/pikafish-official-2026-01-02/

@@ -1,0 +1,92 @@
+{
+  "defaults": {
+    "depth": 1
+  },
+  "positions": [
+    {
+      "name": "startpos_depth1",
+      "fen": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1"
+    },
+    {
+      "name": "startpos_depth2",
+      "fen": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1",
+      "depth": 2
+    },
+    {
+      "name": "opening_two_plies",
+      "position": "position startpos moves h2e2 h9g7"
+    },
+    {
+      "name": "developing_knights_four_plies",
+      "position": "position startpos moves h2e2 h9g7 b0c2 b9c7"
+    },
+    {
+      "name": "central_attack_skirmish",
+      "fen": "4k4/1N6R/9/3N5/4P4/9/9/9/9/4KR3 w - - 0 1"
+    },
+    {
+      "name": "immediate_loss_fallback_guard",
+      "fen": "9/9/5k3/N1r2b3/7b1/9/4n4/3A5/9/1p3K3 w - - 0 1"
+    },
+    {
+      "name": "pawn_capture_tension",
+      "fen": "4k4/9/9/9/4p4/9/4P4/9/9/4K4 w - - 0 1"
+    },
+    {
+      "name": "flying_general_file_pressure",
+      "fen": "4k4/9/9/9/9/9/4P4/9/9/4K4 w - - 0 1"
+    },
+    {
+      "name": "cannon_screen_tension",
+      "fen": "4k4/9/9/9/4c4/4P4/4P4/9/9/4K4 b - - 0 1"
+    },
+    {
+      "name": "blocked_knight_leg",
+      "fen": "4k4/9/9/9/3n5/3p5/4P4/9/9/4K4 b - - 0 1"
+    },
+    {
+      "name": "advisor_palace_constraints",
+      "fen": "4k4/9/9/9/4r4/9/9/9/4A4/4K4 w - - 0 1"
+    },
+    {
+      "name": "elephant_river_boundary",
+      "fen": "3k5/9/9/9/9/2B6/9/9/9/4K4 w - - 0 1"
+    },
+    {
+      "name": "elephant_eye_pressure",
+      "fen": "3k5/9/9/9/9/9/4P4/3B5/9/4K4 w - - 0 1"
+    },
+    {
+      "name": "cannon_screen_capture_tension",
+      "fen": "3k5/9/9/9/4c4/4P4/4R4/9/9/4K4 b - - 0 1"
+    },
+    {
+      "name": "red_win_in_one_tactical",
+      "fen": "4k4/R6N1/9/5N3/4P4/9/9/9/9/3RK4 w - - 0 1"
+    },
+    {
+      "name": "capture_resets_counter",
+      "fen": "4k4/9/9/9/9/4p4/4P4/9/9/4K4 w - - 17 1"
+    },
+    {
+      "name": "rook_safety_fallback",
+      "fen": "4k4/9/9/9/4p4/9/9/9/8r/4K3R w - - 0 1"
+    },
+    {
+      "name": "protected_rook_chase_seed",
+      "fen": "4k4/9/9/9/4r4/9/4R4/9/4R4/4K4 b - - 0 1"
+    },
+    {
+      "name": "rule60_counter_is_not_terminal",
+      "fen": "4k4/9/9/9/9/9/4P4/9/9/4K4 w - - 120 1"
+    },
+    {
+      "name": "history_replay_after_opening_move",
+      "position": "position startpos moves h2e2"
+    },
+    {
+      "name": "repetition_history_preserved",
+      "position": "position fen 4k4/9/9/9/9/9/4P4/9/R8/4K4 w - - 0 1 moves a1a2 e9e8 a2a1 e8e9 a1a2 e9e8 a2a1 e8e9"
+    }
+  ]
+}

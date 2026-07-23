@@ -1,0 +1,26 @@
+{
+  "report_type": "proof_qualification_corpus",
+  "report_schema_version": 1,
+  "split": "development",
+  "config": {
+    "split": "development",
+    "selection_rule_version": "locally_verified_natural_mate_candidate_v1",
+    "candidate_report": {
+      "path": "artifacts\\proof_qualification_development_mate_candidates_hashed_20260713.json",
+      "sha256": "c4941eb978140550600e225d992fd5964e0be01b620681c0ec36591882d63359"
+    },
+    "proof_store": {
+      "path": "database\\proof_qualification_development_expansion_20260713.sqlite",
+      "sha256": "0cfa7e89f492f8a64588bf54e2603a60498b4075469ec679915d2ace5e83544a"
+    },
+    "verification_time_limit_seconds": 10.0,
+    "source_reports": []
+  },
+  "corpus_digest": "8850fb691ba694f211b4ac811626cafbdc89cc92ccb12f1df0d202c46ab0372e",
+  "summary": {
+    "candidates": 0,
+    "verified_positions": 0,
+    "excluded": {}
+  },
+  "positions": []
+}
